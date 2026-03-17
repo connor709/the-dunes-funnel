@@ -1,9 +1,9 @@
-# The Dunes East Hampton ó Email Nurture Sequences
+# The Dunes East Hampton ‚Äî Email Nurture Sequences
 
 Sender recommendation: Claire M., Admissions Liaison
 Phone in footer: (877) 818-5539
 
-## HOT LEAD ó ìCrisis to Commitmentî
+## HOT LEAD ‚Äî ‚ÄúCrisis to Commitment‚Äù
 
 ### Email 1 (Immediate)
 Subject A: Your confidential assessment results
@@ -13,11 +13,11 @@ Hi {{first_name}},
 
 Thank you for completing the confidential assessment. Based on your responses, the next step is a private conversation to clarify immediate needs and the safest level of care.
 
-Weíre here to make this simple and discreet. If youíre ready, call us now and weíll walk you through options and timing.
+We‚Äôre here to make this simple and discreet. If you‚Äôre ready, call us now and we‚Äôll walk you through options and timing.
 
 Primary CTA: Call (877) 818-5539
 
-ó Claire M.
+‚Äî Claire M.
 Admissions Liaison, The Dunes East Hampton
 (877) 818-5539
 Confidential & private. Individual results may vary.
@@ -29,9 +29,9 @@ Subject B: A calm, private first step
 
 Hi {{first_name}},
 
-If you call today, hereís what happens:
+If you call today, here‚Äôs what happens:
 1) A confidential conversation with admissions
-2) A short review of whatís happening right now
+2) A short review of what‚Äôs happening right now
 3) A recommended level of care and timeline
 4) Clear next steps (no pressure)
 
@@ -39,7 +39,7 @@ We can also discuss privacy needs and any professional responsibilities that req
 
 Primary CTA: Call (877) 818-5539
 
-ó Claire M.
+‚Äî Claire M.
 Admissions Liaison, The Dunes East Hampton
 (877) 818-5539
 Confidential & private. Individual results may vary.
@@ -51,56 +51,56 @@ Subject B: Practical details, privately handled
 
 Hi {{first_name}},
 
-Cost and coverage are common concerns. Weíll verify insurance where possible and explain private-pay options in plain language.
+Cost and coverage are common concerns. We‚Äôll verify insurance where possible and explain private-pay options in plain language.
 
-You deserve clarityówithout judgment or pressure.
+You deserve clarity‚Äîwithout judgment or pressure.
 
 Primary CTA: Call (877) 818-5539
 
-ó Claire M.
+‚Äî Claire M.
 Admissions Liaison, The Dunes East Hampton
 (877) 818-5539
 Confidential & private. Individual results may vary.
 Unsubscribe: [link]
 
 ### Email 4 (Day 4)
-Subject A: ìI got my life back.î ó D.M.
+Subject A: ‚ÄúI got my life back.‚Äù ‚Äî D.M.
 Subject B: A real story from The Dunes
 
 Hi {{first_name}},
 
 One of our past clients shared:
-ìThanks for giving me my life back. Iím so happy!î ó D.M.
+‚ÄúThanks for giving me my life back. I‚Äôm so happy!‚Äù ‚Äî D.M.
 
-Everyoneís journey is different, but you donít have to do this alone. A private call can help you decide if The Dunes is right for you.
+Everyone‚Äôs journey is different, but you don‚Äôt have to do this alone. A private call can help you decide if The Dunes is right for you.
 
 Primary CTA: Call (877) 818-5539
 
-ó Claire M.
+‚Äî Claire M.
 Admissions Liaison, The Dunes East Hampton
 (877) 818-5539
 Individual results may vary.
 Unsubscribe: [link]
 
 ### Email 5 (Day 7)
-Subject A: Weíre here when youíre ready
+Subject A: We‚Äôre here when you‚Äôre ready
 Subject B: A private line, whenever you need it
 
 Hi {{first_name}},
 
-If youíre not ready today, thatís okay. Our admissions team is here when the time is right.
+If you‚Äôre not ready today, that‚Äôs okay. Our admissions team is here when the time is right.
 
-Call or reply to this email and weíll respond discreetly.
+Call or reply to this email and we‚Äôll respond discreetly.
 
 Primary CTA: Call (877) 818-5539
 
-ó Claire M.
+‚Äî Claire M.
 Admissions Liaison, The Dunes East Hampton
 (877) 818-5539
 Confidential & private. Individual results may vary.
 Unsubscribe: [link]
 
-## WARM LEAD ó ìResearch to Readinessî
+## WARM LEAD ‚Äî ‚ÄúResearch to Readiness‚Äù
 
 ### Email 1 (Immediate)
 Subject A: Your confidential guide + next steps
@@ -108,14 +108,14 @@ Subject B: Your assessment results inside
 
 Hi {{first_name}},
 
-Hereís your confidential guide and a short overview of what your results mean. The Dunes offers private, individualized treatment designed for people who need discretion and lasting support.
+Here‚Äôs your confidential guide and a short overview of what your results mean. The Dunes offers private, individualized treatment designed for people who need discretion and lasting support.
 
-If youíd like to talk through options, you can schedule a private call at any time.
+If you‚Äôd like to talk through options, you can schedule a private call at any time.
 
 Primary CTA: Schedule a Private Assessment Call
 Secondary CTA: Call (877) 818-5539
 
-ó Claire M.
+‚Äî Claire M.
 Admissions Liaison, The Dunes East Hampton
 (877) 818-5539
 Confidential & private. Individual results may vary.
@@ -127,13 +127,13 @@ Subject B: Privacy + clinical excellence
 
 Hi {{first_name}},
 
-The Dunes combines evidence-based treatment with a discreet, executive-level environment. Our approach blends clinical care with restorative, holistic supportóso recovery is realistic and sustainable.
+The Dunes combines evidence-based treatment with a discreet, executive-level environment. Our approach blends clinical care with restorative, holistic support‚Äîso recovery is realistic and sustainable.
 
-If youíre evaluating options, weíre happy to answer questions confidentially.
+If you‚Äôre evaluating options, we‚Äôre happy to answer questions confidentially.
 
 Primary CTA: Schedule a Private Assessment Call
 
-ó Claire M.
+‚Äî Claire M.
 Admissions Liaison, The Dunes East Hampton
 (877) 818-5539
 Unsubscribe: [link]
@@ -150,7 +150,7 @@ If you want to understand fit, a short call can help.
 
 Primary CTA: Schedule a Private Assessment Call
 
-ó Claire M.
+‚Äî Claire M.
 Admissions Liaison, The Dunes East Hampton
 (877) 818-5539
 Unsubscribe: [link]
@@ -161,34 +161,34 @@ Subject B: Clarity without pressure
 
 Hi {{first_name}},
 
-We can verify insurance and explain private-pay options in a simple, confidential call. No pressureójust clarity.
+We can verify insurance and explain private-pay options in a simple, confidential call. No pressure‚Äîjust clarity.
 
 Primary CTA: Schedule a Private Assessment Call
 Secondary CTA: Call (877) 818-5539
 
-ó Claire M.
+‚Äî Claire M.
 Admissions Liaison, The Dunes East Hampton
 (877) 818-5539
 Unsubscribe: [link]
 
 ### Email 5 (Day 10)
-Subject A: When youíre ready, weíll be here
+Subject A: When you‚Äôre ready, we‚Äôll be here
 Subject B: Two simple next steps
 
 Hi {{first_name}},
 
-If youíre ready to move forward, here are two paths:
+If you‚Äôre ready to move forward, here are two paths:
 1) Call (877) 818-5539
-2) Reply with a time that works and weíll reach out
+2) Reply with a time that works and we‚Äôll reach out
 
-Weíll keep it private and respectful, always.
+We‚Äôll keep it private and respectful, always.
 
-ó Claire M.
+‚Äî Claire M.
 Admissions Liaison, The Dunes East Hampton
 (877) 818-5539
 Unsubscribe: [link]
 
-## COLD LEAD ó ìEducation to Engagementî
+## COLD LEAD ‚Äî ‚ÄúEducation to Engagement‚Äù
 
 ### Email 1 (Immediate)
 Subject A: Your confidential guide
@@ -198,12 +198,12 @@ Hi {{first_name}},
 
 Here is your confidential guide. It outlines options and next steps for those considering treatment in a private, discreet setting.
 
-If youíd like to talk privately, weíre here.
+If you‚Äôd like to talk privately, we‚Äôre here.
 
 Primary CTA: Download the Guide
 Secondary CTA: Call (877) 818-5539
 
-ó Claire M.
+‚Äî Claire M.
 Admissions Liaison, The Dunes East Hampton
 (877) 818-5539
 Unsubscribe: [link]
@@ -224,14 +224,14 @@ If you want a private answer to any of these, call us.
 
 Primary CTA: Call (877) 818-5539
 
-ó Claire M.
+‚Äî Claire M.
 Admissions Liaison, The Dunes East Hampton
 (877) 818-5539
 Unsubscribe: [link]
 
 ### Email 3 (Day 6)
 Subject A: Levels of care, simply explained
-Subject B: Inpatient vs outpatient ó a quick guide
+Subject B: Inpatient vs outpatient ‚Äî a quick guide
 
 Hi {{first_name}},
 
@@ -239,7 +239,7 @@ Residential care provides a private, immersive environment for recovery. Outpati
 
 Primary CTA: Call (877) 818-5539
 
-ó Claire M.
+‚Äî Claire M.
 Admissions Liaison, The Dunes East Hampton
 (877) 818-5539
 Unsubscribe: [link]
@@ -250,11 +250,11 @@ Subject B: Supporting someone you love
 
 Hi {{first_name}},
 
-If youíre seeking help for someone you love, youíre not alone. A private conversation can clarify the right next step without pressure or judgment.
+If you‚Äôre seeking help for someone you love, you‚Äôre not alone. A private conversation can clarify the right next step without pressure or judgment.
 
 Primary CTA: Call (877) 818-5539
 
-ó Claire M.
+‚Äî Claire M.
 Admissions Liaison, The Dunes East Hampton
 (877) 818-5539
 Unsubscribe: [link]
@@ -265,13 +265,13 @@ Subject B: A calm, private next step
 
 Hi {{first_name}},
 
-This email will be here whenever you need it. If youíre ready, call (877) 818-5539 for a confidential conversation.
+This email will be here whenever you need it. If you‚Äôre ready, call (877) 818-5539 for a confidential conversation.
 
-ó Claire M.
+‚Äî Claire M.
 Admissions Liaison, The Dunes East Hampton
 (877) 818-5539
 Unsubscribe: [link]
 
 Cross-tier escalation:
-- Hot leads who donít convert in 7 days roll into Warm at Email 2.
-- Warm leads who donít engage in 14 days roll into Cold at Email 3.
+- Hot leads who don‚Äôt convert in 7 days roll into Warm at Email 2.
+- Warm leads who don‚Äôt engage in 14 days roll into Cold at Email 3.

@@ -118,9 +118,9 @@
     <div class="container">
       <div>
         <h1>Private, Discreet Recovery in the Hamptons</h1>
-        <p>Take a confidential assessment to see the right level of care for you or someone you love. Our team will help you understand options, timing, and next stepsóno pressure.</p>
+        <p>Take a confidential assessment to see the right level of care for you or someone you love. Our team will help you understand options, timing, and next steps‚Äîno pressure.</p>
         <div class="hero-bubble">
-          <div class="tag">FREE ï CONFIDENTIAL ï 2ñ3 MIN</div>
+          <div class="tag">FREE ‚Ä¢ CONFIDENTIAL ‚Ä¢ 2‚Äì3 MIN</div>
           <div>Answer a few questions and receive a personalized recommendation from The Dunes East Hampton team.</div>
           <div style="font-size:13px;opacity:.9;">Trusted by discerning families seeking privacy and clinical excellence.</div>
         </div>
@@ -156,10 +156,10 @@
 
   <section class="section light">
     <div class="container">
-      <h2>If Any of This Feels Familiar, Youíre Not Alone</h2>
+      <h2>If Any of This Feels Familiar, You‚Äôre Not Alone</h2>
       <div class="grid grid-3">
         <div class="card">Trying to hold everything together while addiction quietly disrupts work, family, and health.</div>
-        <div class="card">Past treatment attempts that helped temporarily but didnít create lasting change.</div>
+        <div class="card">Past treatment attempts that helped temporarily but didn‚Äôt create lasting change.</div>
         <div class="card">Needing a truly private, discreet environment where recovery can begin without judgment.</div>
       </div>
     </div>
@@ -207,9 +207,9 @@
     <div class="container">
       <h2>What Clients Say</h2>
       <div class="grid grid-3">
-        <div class="card">ìThe people, the surrounding, the program, the accommodations, all get 10 out of 10.î ó M.C.</div>
-        <div class="card">ìMy experience at this facility saved my life.î ó K.L.</div>
-        <div class="card">ìThanks for giving me my life back. Iím so happy!î ó D.M.</div>
+        <div class="card">‚ÄúThe people, the surrounding, the program, the accommodations, all get 10 out of 10.‚Äù ‚Äî M.C.</div>
+        <div class="card">‚ÄúMy experience at this facility saved my life.‚Äù ‚Äî K.L.</div>
+        <div class="card">‚ÄúThanks for giving me my life back. I‚Äôm so happy!‚Äù ‚Äî D.M.</div>
       </div>
     </div>
   </section>
@@ -249,7 +249,7 @@
   <div class="loading" id="loading">
     <img src="https://theduneseasthampton.com/wp-content/uploads/2025/04/logo-light-large.png" alt="The Dunes" onerror="imgFallback(this,'The Dunes')">
     <div class="loading-bar"><span id="loading-bar"></span></div>
-    <div id="loading-text">Reviewing responsesÖ</div>
+    <div id="loading-text">Reviewing responses‚Ä¶</div>
   </div>
 
   <script>
@@ -290,8 +290,8 @@
       ]},
       { key: "duration", q: "How long has this been affecting your life?", options: [
         {t:"Less than 6 months", score:1},
-        {t:"6ñ24 months", score:2},
-        {t:"2ñ5 years", score:3},
+        {t:"6‚Äì24 months", score:2},
+        {t:"2‚Äì5 years", score:3},
         {t:"5+ years", score:3}
       ]},
       { key: "impact", q: "Which areas are most impacted?", options: [
@@ -305,7 +305,7 @@
         {t:"Soon, within weeks", score:2},
         {t:"Within a few months", score:1}
       ]},
-      { type:"info", text:"Youíre not alone. Many people delay getting help because of privacy concerns. There is a discreet, compassionate path forward." },
+      { type:"info", text:"You‚Äôre not alone. Many people delay getting help because of privacy concerns. There is a discreet, compassionate path forward." },
       { key: "previous", q: "Have you tried treatment before?", options: [
         {t:"No, this would be the first time", score:1},
         {t:"Yes, outpatient or therapy", score:2},
@@ -387,7 +387,7 @@
 
       if (step.type === 'commit'){
         modalQuestion.textContent = step.text;
-        ['Yes, Iím ready','Iím open to learning more','Iím not sure yet'].forEach((t)=>{
+        ['Yes, I‚Äôm ready','I‚Äôm open to learning more','I‚Äôm not sure yet'].forEach((t)=>{
           const div = document.createElement('div');
           div.className = 'option';
           div.innerHTML = '<span class="radio"></span>' + t;
@@ -421,7 +421,7 @@
     }
 
     function showLeadCapture(){
-      modalQuestion.textContent = "Almost there ó where should we send your results?";
+      modalQuestion.textContent = "Almost there ‚Äî where should we send your results?";
       modalOptions.innerHTML = `
         <div style="display:grid;gap:10px;">
           <input id="lead-name" placeholder="Full Name" style="padding:12px;border:1px solid #ddd;border-radius:8px;" />
@@ -450,11 +450,11 @@
       const bar = document.getElementById('loading-bar');
       const text = document.getElementById('loading-text');
       const messages = [
-        "Reviewing responsesÖ",
-        "Analyzing severity indicatorsÖ",
-        "Matching to programsÖ",
-        "Evaluating care levelÖ",
-        "Preparing your assessmentÖ"
+        "Reviewing responses‚Ä¶",
+        "Analyzing severity indicators‚Ä¶",
+        "Matching to programs‚Ä¶",
+        "Evaluating care level‚Ä¶",
+        "Preparing your assessment‚Ä¶"
       ];
       let i = 0;
       loading.classList.add('active');
@@ -480,7 +480,7 @@
 
     function buildResultsPage(tier, answers, score, lead){
       const c = brand.colors;
-      const headline = tier === 'HOT' ? 'Immediate Action Recommended' : tier === 'WARM' ? 'Youíre Close ó A Clear Path Forward' : 'Youíre Taking the Right First Step';
+      const headline = tier === 'HOT' ? 'Immediate Action Recommended' : tier === 'WARM' ? 'You‚Äôre Close ‚Äî A Clear Path Forward' : 'You‚Äôre Taking the Right First Step';
       const primaryCta = tier === 'HOT' ? 'Call Now for a Private Consultation' : tier === 'WARM' ? 'Schedule a Private Assessment Call' : 'Download the Confidential Guide';
       const secondaryCta = tier === 'HOT' ? 'Verify Insurance' : tier === 'WARM' ? 'View Our Treatment Programs' : 'Speak with Admissions';
 
@@ -522,22 +522,22 @@
         <div style="background:${c.primaryDark};color:#fff;padding:40px 6%;">
           <div style="font-family:${"Cinzel"};font-size:26px;margin-bottom:16px;">Stories of Change</div>
           <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;">
-            <div style="background:rgba(255,255,255,.08);padding:16px;border-radius:12px;">ìThe people, the surrounding, the program, the accommodations, all get 10 out of 10.î ó M.C.</div>
-            <div style="background:rgba(255,255,255,.08);padding:16px;border-radius:12px;">ìMy experience at this facility saved my life.î ó K.L.</div>
-            <div style="background:rgba(255,255,255,.08);padding:16px;border-radius:12px;">ìThanks for giving me my life back. Iím so happy!î ó D.M.</div>
+            <div style="background:rgba(255,255,255,.08);padding:16px;border-radius:12px;">‚ÄúThe people, the surrounding, the program, the accommodations, all get 10 out of 10.‚Äù ‚Äî M.C.</div>
+            <div style="background:rgba(255,255,255,.08);padding:16px;border-radius:12px;">‚ÄúMy experience at this facility saved my life.‚Äù ‚Äî K.L.</div>
+            <div style="background:rgba(255,255,255,.08);padding:16px;border-radius:12px;">‚ÄúThanks for giving me my life back. I‚Äôm so happy!‚Äù ‚Äî D.M.</div>
           </div>
           <div style="margin-top:10px;font-size:12px;opacity:.85;">Individual results may vary.</div>
         </div>
         <div style="padding:50px 6%;text-align:center;">
-          <div style="font-family:${"Cinzel"};font-size:28px;">${tier === 'HOT' ? `We have your details, ${lead.name}.` : `Weíve prepared your next steps, ${lead.name}.`}</div>
-          <div style="margin:10px auto 20px;max-width:700px;">${tier === 'COLD' ? 'Youíll receive a confidential guide and options to explore. If youíre ready for a private conversation, weíre here.' : 'A private call will help confirm the level of care and timeline that fits your needs.'}</div>
+          <div style="font-family:${"Cinzel"};font-size:28px;">${tier === 'HOT' ? `We have your details, ${lead.name}.` : `We‚Äôve prepared your next steps, ${lead.name}.`}</div>
+          <div style="margin:10px auto 20px;max-width:700px;">${tier === 'COLD' ? 'You‚Äôll receive a confidential guide and options to explore. If you‚Äôre ready for a private conversation, we‚Äôre here.' : 'A private call will help confirm the level of care and timeline that fits your needs.'}</div>
           <div style="display:flex;justify-content:center;gap:12px;flex-wrap:wrap;">
             <a href="${brand.phoneLink}" style="background:${c.accent};color:#0b1d0b;padding:14px 22px;border-radius:10px;text-decoration:none;font-weight:700;">${primaryCta}</a>
             <a href="https://theduneseasthampton.com/" style="background:${c.primary};color:#fff;padding:14px 22px;border-radius:10px;text-decoration:none;font-weight:700;">${secondaryCta}</a>
           </div>
         </div>
         <div style="background:#111;color:#bbb;padding:30px 6%;font-size:12px;">
-          The Dunes East Hampton ï 15 Lohan Lane, Southampton, NY 11968 ï ${brand.phone}
+          The Dunes East Hampton ‚Ä¢ 15 Lohan Lane, Southampton, NY 11968 ‚Ä¢ ${brand.phone}
         </div>
       </div>`;
     }

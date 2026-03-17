@@ -1,99 +1,99 @@
-# The Dunes East Hampton — Ad Concepts (10)
+# The Dunes East Hampton â€” Ad Concepts (10)
 
-All ads avoid personal-attribute language and guaranteed outcomes. Healthcare compliance: no diagnosis claims, no PHI, no before/after. Include “individual results may vary” when testimonials implied.
+All ads avoid personal-attribute language and guaranteed outcomes. Healthcare compliance: no diagnosis claims, no PHI, no before/after. Include â€œindividual results may varyâ€ when testimonials implied.
 
 ## Quiz Funnel Ads (5)
 
-1) **“Confidential Recovery Assessment”**
-- Visual: Estate exterior at golden hour with subtle dark overlay. The Dunes logo top-left. Center text: “Confidential Recovery Assessment” + “2–3 minutes”.
-- Primary Text: “A private, discreet way to understand treatment options in the Hamptons.”
-- Image Text: “CONFIDENTIAL ASSESSMENT” / “PRIVATE • DISCREET”
-- Headline: “Start a Private Assessment”
-- Description: “Get a tailored recommendation.”
-- CTA: “Learn More”
+1) **â€œConfidential Recovery Assessmentâ€**
+- Visual: Estate exterior at golden hour with subtle dark overlay. The Dunes logo top-left. Center text: â€œConfidential Recovery Assessmentâ€ + â€œ2â€“3 minutesâ€.
+- Primary Text: â€œA private, discreet way to understand treatment options in the Hamptons.â€
+- Image Text: â€œCONFIDENTIAL ASSESSMENTâ€ / â€œPRIVATE â€¢ DISCREETâ€
+- Headline: â€œStart a Private Assessmentâ€
+- Description: â€œGet a tailored recommendation.â€
+- CTA: â€œLearn Moreâ€
 - Compliance: No personal attributes, no guarantees.
 
-2) **“Executive-Level Privacy”**
+2) **â€œExecutive-Level Privacyâ€**
 - Visual: Interior lounge/quiet room image from site. Gold accent line, small lock icon.
-- Primary Text: “Discretion matters. Explore private recovery options in a calm, executive-level setting.”
-- Image Text: “EXECUTIVE-LEVEL PRIVACY”
-- Headline: “Private Assessment”
-- Description: “Confidential and respectful.”
-- CTA: “Learn More”
+- Primary Text: â€œDiscretion matters. Explore private recovery options in a calm, executive-level setting.â€
+- Image Text: â€œEXECUTIVE-LEVEL PRIVACYâ€
+- Headline: â€œPrivate Assessmentâ€
+- Description: â€œConfidential and respectful.â€
+- CTA: â€œLearn Moreâ€
 - Compliance: Avoids sensitive targeting.
 
-3) **“Family-First Support”**
+3) **â€œFamily-First Supportâ€**
 - Visual: Serene outdoor grounds image. Soft overlay with brand gold CTA.
-- Primary Text: “For families seeking clear next steps, our confidential assessment helps you understand the right level of care.”
-- Image Text: “A CALM FIRST STEP”
-- Headline: “Confidential Assessment”
-- Description: “No pressure.”
-- CTA: “Get Started”
+- Primary Text: â€œFor families seeking clear next steps, our confidential assessment helps you understand the right level of care.â€
+- Image Text: â€œA CALM FIRST STEPâ€
+- Headline: â€œConfidential Assessmentâ€
+- Description: â€œNo pressure.â€
+- CTA: â€œGet Startedâ€
 - Compliance: No diagnosis language.
 
-4) **“Private Hamptons Estate”**
+4) **â€œPrivate Hamptons Estateâ€**
 - Visual: Aerial/grounds shot; logo in corner. Gold + white typography.
-- Primary Text: “A private estate in the Hamptons designed for discreet recovery.”
-- Image Text: “PRIVATE HAMPTONS ESTATE”
-- Headline: “Explore The Dunes”
-- Description: “Take the assessment.”
-- CTA: “Learn More”
+- Primary Text: â€œA private estate in the Hamptons designed for discreet recovery.â€
+- Image Text: â€œPRIVATE HAMPTONS ESTATEâ€
+- Headline: â€œExplore The Dunesâ€
+- Description: â€œTake the assessment.â€
+- CTA: â€œLearn Moreâ€
 - Compliance: No outcomes claims.
 
-5) **“Care Level Clarity”**
+5) **â€œCare Level Clarityâ€**
 - Visual: Quiet room with clinician/guest (if available). Minimal text.
-- Primary Text: “Not sure which level of care fits? A short assessment provides clarity.”
-- Image Text: “FIND THE RIGHT CARE LEVEL”
-- Headline: “Confidential Assessment”
-- Description: “2–3 minutes.”
-- CTA: “Get Started”
+- Primary Text: â€œNot sure which level of care fits? A short assessment provides clarity.â€
+- Image Text: â€œFIND THE RIGHT CARE LEVELâ€
+- Headline: â€œConfidential Assessmentâ€
+- Description: â€œ2â€“3 minutes.â€
+- CTA: â€œGet Startedâ€
 - Compliance: No personal attributes.
 
 ## General Service/Brand Ads (5)
 
-6) **“Luxury Recovery in the Hamptons”**
+6) **â€œLuxury Recovery in the Hamptonsâ€**
 - Visual: Estate exterior + logo. Gold frame.
-- Primary Text: “A private, discreet recovery environment in East Hampton.”
-- Image Text: “THE DUNES EAST HAMPTON”
-- Headline: “Private Recovery Environment”
-- Description: “Learn about our approach.”
-- CTA: “Learn More”
+- Primary Text: â€œA private, discreet recovery environment in East Hampton.â€
+- Image Text: â€œTHE DUNES EAST HAMPTONâ€
+- Headline: â€œPrivate Recovery Environmentâ€
+- Description: â€œLearn about our approach.â€
+- CTA: â€œLearn Moreâ€
 - Compliance: No guarantees.
 
-7) **“Clinical + Holistic”**
+7) **â€œClinical + Holisticâ€**
 - Visual: Wellness room image. Split text blocks.
-- Primary Text: “Evidence-based care complemented by restorative wellness therapies.”
-- Image Text: “CLINICAL + HOLISTIC”
-- Headline: “Our Treatment Approach”
-- Description: “Explore programs.”
-- CTA: “Learn More”
+- Primary Text: â€œEvidence-based care complemented by restorative wellness therapies.â€
+- Image Text: â€œCLINICAL + HOLISTICâ€
+- Headline: â€œOur Treatment Approachâ€
+- Description: â€œExplore programs.â€
+- CTA: â€œLearn Moreâ€
 - Compliance: No cure language.
 
-8) **“Discreet Admissions”**
+8) **â€œDiscreet Admissionsâ€**
 - Visual: Subtle dark background with gold phone CTA.
-- Primary Text: “Admissions handled privately, with respect for your schedule and confidentiality.”
-- Image Text: “PRIVATE ADMISSIONS”
-- Headline: “Call for a Confidential Consultation”
-- Description: “No pressure.”
-- CTA: “Call Now”
+- Primary Text: â€œAdmissions handled privately, with respect for your schedule and confidentiality.â€
+- Image Text: â€œPRIVATE ADMISSIONSâ€
+- Headline: â€œCall for a Confidential Consultationâ€
+- Description: â€œNo pressure.â€
+- CTA: â€œCall Nowâ€
 - Compliance: No personal attributes.
 
-9) **“Aftercare & Alumni”**
+9) **â€œAftercare & Alumniâ€**
 - Visual: Calm outdoor image + small icons.
-- Primary Text: “Long-term recovery support and alumni care.”
-- Image Text: “LONG-TERM SUPPORT”
-- Headline: “See Our Continuum of Care”
-- Description: “Learn more.”
-- CTA: “Learn More”
+- Primary Text: â€œLong-term recovery support and alumni care.â€
+- Image Text: â€œLONG-TERM SUPPORTâ€
+- Headline: â€œSee Our Continuum of Careâ€
+- Description: â€œLearn more.â€
+- CTA: â€œLearn Moreâ€
 - Compliance: No guarantees.
 
-10) **“Discreet Family Guidance”**
+10) **â€œDiscreet Family Guidanceâ€**
 - Visual: Minimalistic typography on dark background.
-- Primary Text: “Guidance for families seeking private recovery options.”
-- Image Text: “PRIVATE FAMILY GUIDANCE”
-- Headline: “Speak with Admissions”
-- Description: “Confidential.”
-- CTA: “Contact Us”
+- Primary Text: â€œGuidance for families seeking private recovery options.â€
+- Image Text: â€œPRIVATE FAMILY GUIDANCEâ€
+- Headline: â€œSpeak with Admissionsâ€
+- Description: â€œConfidential.â€
+- CTA: â€œContact Usâ€
 - Compliance: No diagnosis language.
 
 ### Format Specs
@@ -104,13 +104,13 @@ All ads avoid personal-attribute language and guaranteed outcomes. Healthcare co
 - Prohibited: targeting by health conditions, addiction recovery membership lists, or inferred sensitive traits.
 
 ### Retargeting Matrix
-- Quiz visitors (no lead): show Quiz Ads 1–3
+- Quiz visitors (no lead): show Quiz Ads 1â€“3
 - Lead submitted, no call: show Ads 2, 5, 8
-- Warm engagement: show Ads 6–9
+- Warm engagement: show Ads 6â€“9
 
 ### Pre-launch Compliance Checklist
-- No “you + condition” language
+- No â€œyou + conditionâ€ language
 - No implied diagnosis
 - No guarantees or cure language
 - Include privacy/consent on landing page
-- Testimonials include “individual results may vary”
+- Testimonials include â€œindividual results may varyâ€
