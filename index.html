@@ -53,17 +53,17 @@
       linear-gradient(120deg, rgba(42,42,42,.86), rgba(42,42,42,.28)),
       url('https://theduneseasthampton.com/wp-content/uploads/2026/03/248A2319-HDR-1.webp') center/cover no-repeat;
       color:#fff;padding:80px 0;}
-    .hero .container{display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center;}
+    .hero .container{display:grid;grid-template-columns:1.25fr .75fr;gap:44px;align-items:center;}
     .eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.22em;color:rgba(255,255,255,.75);font-family:var(--font-ui-wide);}
 
     /* Global headings matching The Dunes' rendered hierarchy */
     h1,h2,h3,h4{margin:0;}
-    h1{font-family:var(--font-heading);font-size:3.25rem;font-weight:400;line-height:1.08;text-transform:uppercase;text-wrap:pretty;}
+    h1{font-family:var(--font-heading);font-size:3.0rem;font-weight:400;line-height:1.06;text-transform:uppercase;text-wrap:pretty;letter-spacing:.01em;}
     h2{font-family:var(--font-heading);font-size:2.1rem;font-weight:400;line-height:1.12;text-transform:uppercase;text-wrap:pretty;}
     h3{font-family:var(--font-ui-wide);font-size:1.05rem;font-weight:400;line-height:1.2;text-transform:uppercase;letter-spacing:.08em;color:var(--primary);}
     h4{font-family:var(--font-ui);font-size:1rem;font-weight:400;line-height:1.35;color:var(--dark);}
 
-    .hero h1{max-width:620px;letter-spacing:.01em;}
+    .hero h1{max-width:760px;}
     .hero p{font-size:16px;line-height:1.75;margin:16px 0 22px;max-width:560px;color:rgba(255,255,255,.88);}
     .hero-card{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.22);backdrop-filter:blur(10px);border-radius:16px;padding:18px;max-width:480px;}
     .hero-card .tag{color:rgba(255,255,255,.75);font-weight:500;letter-spacing:.14em;font-size:11px;font-family:var(--font-ui-wide);text-transform:uppercase;}
@@ -84,8 +84,8 @@
     /* TRUST BAND */
     .trust-band{background:var(--light);padding:22px 0;border-bottom:1px solid #eee;}
     .trust-row{display:flex;gap:14px;flex-wrap:wrap;align-items:center;}
-    .trust-pill{display:flex;align-items:center;justify-content:center;background:#fff;border:1px solid #e6e6e6;border-radius:var(--radius);padding:10px 14px;min-height:52px;box-shadow:0 6px 16px rgba(0,0,0,.05);}
-    .trust-pill img{height:34px;width:auto;max-width:150px;object-fit:contain;}
+    .trust-pill{display:flex;align-items:center;justify-content:center;background:linear-gradient(#ffffff,#fbfbfb);border:1px solid #e6e6e6;border-radius:999px;padding:10px 18px;min-height:52px;box-shadow:0 6px 16px rgba(0,0,0,.05);overflow:hidden;}
+    .trust-pill img{height:30px;width:auto;max-width:160px;object-fit:contain;filter:grayscale(100%) contrast(1.05);opacity:.95;}
 
     /* SECTIONS */
     .section{padding:var(--section-pad) 0;}
@@ -135,9 +135,10 @@
       .section{padding:72px 0;}
       .trust-row{justify-content:center;}
     }
-    @media (max-width:1119px){ h1{font-size:2.85rem;} h2{font-size:1.9rem;} }
-    @media (min-width:1120px) and (max-width:1600px){ h1{font-size:3.05rem;} h2{font-size:2.0rem;} }
-    @media (max-width:767px){ h1{font-size:1.75rem;} h2{font-size:1.5rem;} h3{font-size:.95rem;} }
+    @media (max-width:1119px){ h1{font-size:2.65rem;} h2{font-size:1.9rem;} }
+    @media (min-width:1120px) and (max-width:1600px){ h1{font-size:2.85rem;} h2{font-size:2.0rem;} }
+    @media (max-width:900px){ .hero .container{grid-template-columns:1fr;} }
+    @media (max-width:767px){ h1{font-size:1.6rem;} h2{font-size:1.45rem;} h3{font-size:.95rem;} }
   </style>
 </head>
 <body>
