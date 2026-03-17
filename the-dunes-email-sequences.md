@@ -1,1 +1,277 @@
-‣桔⁥畄敮⁳慅瑳䠠浡瑰湯钀䔠慭汩丠牵畴敲匠煥敵据獥ਊ敓摮牥爠捥浯敭摮瑡潩㩮䌠慬物⁥⹍‬摁業獳潩獮䰠慩獩湯倊潨敮椠⁮潦瑯牥›㠨㜷 ㄸⴸ㔵㤳ਊ⌣䠠呏䰠䅅⁄胢ₔ胢䎜楲楳⁳潴䌠浯業浴湥鶀ਊ⌣‣浅楡⁬‱䤨浭摥慩整਩畓橢捥⁴㩁夠畯⁲潣普摩湥楴污愠獳獥浳湥⁴敲畳瑬ੳ畓橢捥⁴㩂䄠瀠楲慶整瀠瑡⁨潦睲牡Ɽ猠慴瑲湩⁧潴慤੹䠊⁩筻楦獲彴慮敭絽ਬ吊慨歮礠畯映牯挠浯汰瑥湩⁧桴⁥潣普摩湥楴污愠獳獥浳湥⹴䈠獡摥漠⁮潹牵爠獥潰獮獥‬桴⁥敮瑸猠整⁰獩愠瀠楲慶整挠湯敶獲瑡潩⁮潴挠慬楲祦椠浭摥慩整渠敥獤愠摮琠敨猠晡獥⁴敬敶⁬景挠牡⹥ਊ敗胢犙⁥敨敲琠⁯慭敫琠楨⁳楳灭敬愠摮搠獩牣敥⹴䤠⁦潹馀敲爠慥祤‬慣汬甠⁳潮⁷湡⁤敷胢沙⁬慷歬礠畯琠牨畯桧漠瑰潩獮愠摮琠浩湩⹧ਊ牐浩牡⁹呃㩁䌠污⁬㠨㜷 ㄸⴸ㔵㤳ਊ胢ₔ汃楡敲䴠ਮ摁業獳潩獮䰠慩獩湯‬桔⁥畄敮⁳慅瑳䠠浡瑰湯⠊㜸⤷㠠㠱㔭㌵ਹ潃普摩湥楴污☠瀠楲慶整‮湉楤楶畤污爠獥汵獴洠祡瘠牡⹹唊獮扵捳楲敢›汛湩嵫ਊ⌣‣浅楡⁬′㐨栠畯獲氠瑡牥਩畓橢捥⁴㩁圠慨⁴慨灰湥⁳晡整⁲潹⁵慣汬匊扵敪瑣䈠›⁁慣浬‬牰癩瑡⁥楦獲⁴瑳灥ਊ楈笠晻物瑳湟浡絥ⱽਊ晉礠畯挠污⁬潴慤ⱹ栠牥馀⁳桷瑡栠灡数獮਺⤱䄠挠湯楦敤瑮慩⁬潣癮牥慳楴湯眠瑩⁨摡業獳潩獮㈊ ⁁桳牯⁴敲楶睥漠⁦桷瑡胢玙栠灡数楮杮爠杩瑨渠睯㌊ ⁁敲潣浭湥敤⁤敬敶⁬景挠牡⁥湡⁤楴敭楬敮㐊 汃慥⁲敮瑸猠整獰⠠潮瀠敲獳牵⥥ਊ敗挠湡愠獬⁯楤捳獵⁳牰癩捡⁹敮摥⁳湡⁤湡⁹牰景獥楳湯污爠獥潰獮扩汩瑩敩⁳桴瑡爠煥極敲搠獩牣瑥潩⹮ਊ牐浩牡⁹呃㩁䌠污⁬㠨㜷 ㄸⴸ㔵㤳ਊ胢ₔ汃楡敲䴠ਮ摁業獳潩獮䰠慩獩湯‬桔⁥畄敮⁳慅瑳䠠浡瑰湯⠊㜸⤷㠠㠱㔭㌵ਹ潃普摩湥楴污☠瀠楲慶整‮湉楤楶畤污爠獥汵獴洠祡瘠牡⹹唊獮扵捳楲敢›汛湩嵫ਊ⌣‣浅楡⁬″䐨祡㈠਩畓橢捥⁴㩁䌠獯ⱴ椠獮牵湡散‬湡⁤楦慮据慩⁬汣牡瑩੹畓橢捥⁴㩂倠慲瑣捩污搠瑥楡獬‬牰癩瑡汥⁹慨摮敬੤䠊⁩筻楦獲彴慮敭絽ਬ䌊獯⁴湡⁤潣敶慲敧愠敲挠浯潭⁮潣据牥獮‮敗胢沙⁬敶楲祦椠獮牵湡散眠敨敲瀠獯楳汢⁥湡⁤硥汰楡⁮牰癩瑡ⵥ慰⁹灯楴湯⁳湩瀠慬湩氠湡畧条⹥ਊ潙⁵敤敳癲⁥汣牡瑩钀楷桴畯⁴番杤敭瑮漠⁲牰獥畳敲ਮ倊楲慭祲䌠䅔›慃汬⠠㜸⤷㠠㠱㔭㌵ਹ钀䌠慬物⁥⹍䄊浤獩楳湯⁳楌楡潳Ɱ吠敨䐠湵獥䔠獡⁴慈灭潴੮㠨㜷 ㄸⴸ㔵㤳䌊湯楦敤瑮慩⁬…牰癩瑡⹥䤠摮癩摩慵⁬敲畳瑬⁳慭⁹慶祲ਮ湕畳獢牣扩㩥嬠楬歮੝⌊⌣䔠慭汩㐠⠠慄⁹⤴匊扵敪瑣䄠›胢䦜朠瑯洠⁹楬敦戠捡⹫胢₝胢ₔ⹄⹍匊扵敪瑣䈠›⁁敲污猠潴祲映潲⁭桔⁥畄敮ੳ䠊⁩筻楦獲彴慮敭絽ਬ伊敮漠⁦畯⁲慰瑳挠楬湥獴猠慨敲㩤鲀桔湡獫映牯朠癩湩⁧敭洠⁹楬敦戠捡⹫䤠胢涙猠⁯慨灰ⅹ胢₝胢ₔ⹄⹍ਊ癅牥潹敮胢玙樠畯湲祥椠⁳楤晦牥湥ⱴ戠瑵礠畯搠湯胢璙栠癡⁥潴搠⁯桴獩愠潬敮‮⁁牰癩瑡⁥慣汬挠湡栠汥⁰潹⁵敤楣敤椠⁦桔⁥畄敮⁳獩爠杩瑨映牯礠畯ਮ倊楲慭祲䌠䅔›慃汬⠠㜸⤷㠠㠱㔭㌵ਹ钀䌠慬物⁥⹍䄊浤獩楳湯⁳楌楡潳Ɱ吠敨䐠湵獥䔠獡⁴慈灭潴੮㠨㜷 ㄸⴸ㔵㤳䤊摮癩摩慵⁬敲畳瑬⁳慭⁹慶祲ਮ湕畳獢牣扩㩥嬠楬歮੝⌊⌣䔠慭汩㔠⠠慄⁹⤷匊扵敪瑣䄠›敗胢犙⁥敨敲眠敨⁮潹馀敲爠慥祤匊扵敪瑣䈠›⁁牰癩瑡⁥楬敮‬桷湥癥牥礠畯渠敥⁤瑩ਊ楈笠晻物瑳湟浡絥ⱽਊ晉礠畯胢犙⁥潮⁴敲摡⁹潴慤ⱹ琠慨馀⁳歯祡‮畏⁲摡業獳潩獮琠慥⁭獩栠牥⁥桷湥琠敨琠浩⁥獩爠杩瑨ਮ䌊污⁬牯爠灥祬琠⁯桴獩攠慭汩愠摮眠馀汬爠獥潰摮搠獩牣敥汴⹹ਊ牐浩牡⁹呃㩁䌠污⁬㠨㜷 ㄸⴸ㔵㤳ਊ胢ₔ汃楡敲䴠ਮ摁業獳潩獮䰠慩獩湯‬桔⁥畄敮⁳慅瑳䠠浡瑰湯⠊㜸⤷㠠㠱㔭㌵ਹ潃普摩湥楴污☠瀠楲慶整‮湉楤楶畤污爠獥汵獴洠祡瘠牡⹹唊獮扵捳楲敢›汛湩嵫ਊ⌣圠剁⁍䕌䑁钀鲀敒敳牡档琠⁯敒摡湩獥鶀ਊ⌣‣浅楡⁬‱䤨浭摥慩整਩畓橢捥⁴㩁夠畯⁲潣普摩湥楴污朠極敤⬠渠硥⁴瑳灥ੳ畓橢捥⁴㩂夠畯⁲獡敳獳敭瑮爠獥汵獴椠獮摩੥䠊⁩筻楦獲彴慮敭絽ਬ䠊牥馀⁳潹牵挠湯楦敤瑮慩⁬畧摩⁥湡⁤⁡桳牯⁴癯牥楶睥漠⁦桷瑡礠畯⁲敲畳瑬⁳敭湡‮桔⁥畄敮⁳景敦獲瀠楲慶整‬湩楤楶畤污穩摥琠敲瑡敭瑮搠獥杩敮⁤潦⁲数灯敬眠潨渠敥⁤楤捳敲楴湯愠摮氠獡楴杮猠灵潰瑲ਮ䤊⁦潹馀⁤楬敫琠⁯慴歬琠牨畯桧漠瑰潩獮‬潹⁵慣⁮捳敨畤敬愠瀠楲慶整挠污⁬瑡愠祮琠浩⹥ਊ牐浩牡⁹呃㩁匠档摥汵⁥⁡牐癩瑡⁥獁敳獳敭瑮䌠污੬敓潣摮牡⁹呃㩁䌠污⁬㠨㜷 ㄸⴸ㔵㤳ਊ胢ₔ汃楡敲䴠ਮ摁業獳潩獮䰠慩獩湯‬桔⁥畄敮⁳慅瑳䠠浡瑰湯⠊㜸⤷㠠㠱㔭㌵ਹ潃普摩湥楴污☠瀠楲慶整‮湉楤楶畤污爠獥汵獴洠祡瘠牡⹹唊獮扵捳楲敢›汛湩嵫ਊ⌣‣浅楡⁬′䐨祡㈠਩畓橢捥⁴㩁圠慨⁴慭敫⁳桔⁥畄敮⁳楤晦牥湥ੴ畓橢捥⁴㩂倠楲慶祣⬠挠楬楮慣⁬硥散汬湥散ਊ楈笠晻物瑳湟浡絥ⱽਊ桔⁥畄敮⁳潣扭湩獥攠楶敤据ⵥ慢敳⁤牴慥浴湥⁴楷桴愠搠獩牣敥ⱴ攠數畣楴敶氭癥汥攠癮物湯敭瑮‮畏⁲灡牰慯档戠敬摮⁳汣湩捩污挠牡⁥楷桴爠獥潴慲楴敶‬潨楬瑳捩猠灵潰瑲胢玔⁯敲潣敶祲椠⁳敲污獩楴⁣湡⁤畳瑳楡慮汢⹥ਊ晉礠畯胢犙⁥癥污慵楴杮漠瑰潩獮‬敷胢犙⁥慨灰⁹潴愠獮敷⁲畱獥楴湯⁳潣普摩湥楴污祬ਮ倊楲慭祲䌠䅔›捓敨畤敬愠倠楲慶整䄠獳獥浳湥⁴慃汬ਊ胢ₔ汃楡敲䴠ਮ摁業獳潩獮䰠慩獩湯‬桔⁥畄敮⁳慅瑳䠠浡瑰湯⠊㜸⤷㠠㠱㔭㌵ਹ湕畳獢牣扩㩥嬠楬歮੝⌊⌣䔠慭汩㌠⠠慄⁹⤴匊扵敪瑣䄠›⁁祴楰慣⁬慤⁹瑡吠敨䐠湵獥匊扵敪瑣䈠›桗瑡琠敨攠灸牥敩据⁥敦汥⁳楬敫ਊ楈笠晻物瑳湟浡絥ⱽਊ⁁祴楰慣⁬慤⁹湩汣摵獥挠楬楮慣⁬桴牥灡ⱹ椠摮癩摩慵楬敺⁤慣敲瀠慬湮湩Ⱨ眠汥湬獥⁳捡楴楶楴獥‬湡⁤楴敭映牯爠獥潴慲楴湯‮癅牥瑹楨杮椠⁳敤楳湧摥琠⁯牰瑯捥⁴牰癩捡⁹湡⁤畳灰牯⁴潬杮琭牥⁭敲潣敶祲ਮ䤊⁦潹⁵慷瑮琠⁯湵敤獲慴摮映瑩‬⁡桳牯⁴慣汬挠湡栠汥⹰ਊ牐浩牡⁹呃㩁匠档摥汵⁥⁡牐癩瑡⁥獁敳獳敭瑮䌠污੬钀䌠慬物⁥⹍䄊浤獩楳湯⁳楌楡潳Ɱ吠敨䐠湵獥䔠獡⁴慈灭潴੮㠨㜷 ㄸⴸ㔵㤳唊獮扵捳楲敢›汛湩嵫ਊ⌣‣浅楡⁬‴䐨祡㜠਩畓橢捥⁴㩁䤠癮獥浴湥⁴湡⁤湩畳慲据ⱥ攠灸慬湩摥匊扵敪瑣䈠›汃牡瑩⁹楷桴畯⁴牰獥畳敲ਊ楈笠晻物瑳湟浡絥ⱽਊ敗挠湡瘠牥晩⁹湩畳慲据⁥湡⁤硥汰楡⁮牰癩瑡ⵥ慰⁹灯楴湯⁳湩愠猠浩汰ⱥ挠湯楦敤瑮慩⁬慣汬‮潎瀠敲獳牵钀番瑳挠慬楲祴ਮ倊楲慭祲䌠䅔›捓敨畤敬愠倠楲慶整䄠獳獥浳湥⁴慃汬匊捥湯慤祲䌠䅔›慃汬⠠㜸⤷㠠㠱㔭㌵ਹ钀䌠慬物⁥⹍䄊浤獩楳湯⁳楌楡潳Ɱ吠敨䐠湵獥䔠獡⁴慈灭潴੮㠨㜷 ㄸⴸ㔵㤳唊獮扵捳楲敢›汛湩嵫ਊ⌣‣浅楡⁬‵䐨祡ㄠ⤰匊扵敪瑣䄠›桗湥礠畯胢犙⁥敲摡ⱹ眠馀汬戠⁥敨敲匊扵敪瑣䈠›睔⁯楳灭敬渠硥⁴瑳灥ੳ䠊⁩筻楦獲彴慮敭絽ਬ䤊⁦潹馀敲爠慥祤琠⁯潭敶映牯慷摲‬敨敲愠敲琠潷瀠瑡獨਺⤱䌠污⁬㠨㜷 ㄸⴸ㔵㤳㈊ 敒汰⁹楷桴愠琠浩⁥桴瑡眠牯獫愠摮眠馀汬爠慥档漠瑵ਊ敗胢沙⁬敫灥椠⁴牰癩瑡⁥湡⁤敲灳捥晴汵‬污慷獹ਮ钀䌠慬物⁥⹍䄊浤獩楳湯⁳楌楡潳Ɱ吠敨䐠湵獥䔠獡⁴慈灭潴੮㠨㜷 ㄸⴸ㔵㤳唊獮扵捳楲敢›汛湩嵫ਊ⌣䌠䱏⁄䕌䑁钀鲀摅捵瑡潩⁮潴䔠杮条浥湥鶀ਊ⌣‣浅楡⁬‱䤨浭摥慩整਩畓橢捥⁴㩁夠畯⁲潣普摩湥楴污朠極敤匊扵敪瑣䈠›⁁牰癩瑡⁥楦獲⁴瑳灥ਊ楈笠晻物瑳湟浡絥ⱽਊ效敲椠⁳潹牵挠湯楦敤瑮慩⁬畧摩⹥䤠⁴畯汴湩獥漠瑰潩獮愠摮渠硥⁴瑳灥⁳潦⁲桴獯⁥潣獮摩牥湩⁧牴慥浴湥⁴湩愠瀠楲慶整‬楤捳敲瑥猠瑥楴杮ਮ䤊⁦潹馀⁤楬敫琠⁯慴歬瀠楲慶整祬‬敷胢犙⁥敨敲ਮ倊楲慭祲䌠䅔›潄湷潬摡琠敨䜠極敤匊捥湯慤祲䌠䅔›慃汬⠠㜸⤷㠠㠱㔭㌵ਹ钀䌠慬物⁥⹍䄊浤獩楳湯⁳楌楡潳Ɱ吠敨䐠湵獥䔠獡⁴慈灭潴੮㠨㜷 ㄸⴸ㔵㤳唊獮扵捳楲敢›汛湩嵫ਊ⌣‣浅楡⁬′䐨祡㌠਩畓橢捥⁴㩁䠠睯琠⁯癥污慵整琠敲瑡敭瑮漠瑰潩獮匊扵敪瑣䈠›桗瑡琠⁯潬歯映牯椠⁮⁡敲慨⁢牰杯慲੭䠊⁩筻楦獲彴慮敭絽ਬ䬊祥焠敵瑳潩獮琠⁯潣獮摩牥਺‭獉琠敨瀠潲牧浡椠摮癩摩慵楬敺⁤牯猠慴摮牡楤敺㽤ⴊ䠠睯椠⁳牰癩捡⁹慨摮敬㽤ⴊ䤠⁳畤污搭慩湧獯獩挠牡⁥癡楡慬汢㽥ⴊ圠慨⁴晡整捲牡⁥畳灰牯⁴獩瀠潲楶敤㽤ਊ晉礠畯眠湡⁴⁡牰癩瑡⁥湡睳牥琠⁯湡⁹景琠敨敳‬慣汬甠⹳ਊ牐浩牡⁹呃㩁䌠污⁬㠨㜷 ㄸⴸ㔵㤳ਊ胢ₔ汃楡敲䴠ਮ摁業獳潩獮䰠慩獩湯‬桔⁥畄敮⁳慅瑳䠠浡瑰湯⠊㜸⤷㠠㠱㔭㌵ਹ湕畳獢牣扩㩥嬠楬歮੝⌊⌣䔠慭汩㌠⠠慄⁹⤶匊扵敪瑣䄠›敌敶獬漠⁦慣敲‬楳灭祬攠灸慬湩摥匊扵敪瑣䈠›湉慰楴湥⁴獶漠瑵慰楴湥⁴胢ₔ⁡畱捩⁫畧摩੥䠊⁩筻楦獲彴慮敭絽ਬ刊獥摩湥楴污挠牡⁥牰癯摩獥愠瀠楲慶整‬浩敭獲癩⁥湥楶潲浮湥⁴潦⁲敲潣敶祲‮畏灴瑡敩瑮挠牡⁥景敦獲猠牴捵畴敲眠楨敬愠汬睯湩⁧潭敲搠楡祬映敬楸楢楬祴‮敗挠湡栠汥⁰潹⁵敤楣敤眠楨档椠⁳慳敦瑳愠摮洠獯⁴晥敦瑣癩⁥慢敳⁤湯礠畯⁲楳畴瑡潩⹮ਊ牐浩牡⁹呃㩁䌠污⁬㠨㜷 ㄸⴸ㔵㤳ਊ胢ₔ汃楡敲䴠ਮ摁業獳潩獮䰠慩獩湯‬桔⁥畄敮⁳慅瑳䠠浡瑰湯⠊㜸⤷㠠㠱㔭㌵ਹ湕畳獢牣扩㩥嬠楬歮੝⌊⌣䔠慭汩㐠⠠慄⁹〱਩畓橢捥⁴㩁䘠潲⁭⁡慦業祬瀠牥灳捥楴敶匊扵敪瑣䈠›畓灰牯楴杮猠浯潥敮礠畯氠癯੥䠊⁩筻楦獲彴慮敭絽ਬ䤊⁦潹馀敲猠敥楫杮栠汥⁰潦⁲潳敭湯⁥潹⁵潬敶‬潹馀敲渠瑯愠潬敮‮⁁牰癩瑡⁥潣癮牥慳楴湯挠湡挠慬楲祦琠敨爠杩瑨渠硥⁴瑳灥眠瑩潨瑵瀠敲獳牵⁥牯樠摵浧湥⹴ਊ牐浩牡⁹呃㩁䌠污⁬㠨㜷 ㄸⴸ㔵㤳ਊ胢ₔ汃楡敲䴠ਮ摁業獳潩獮䰠慩獩湯‬桔⁥畄敮⁳慅瑳䠠浡瑰湯⠊㜸⤷㠠㠱㔭㌵ਹ湕畳獢牣扩㩥嬠楬歮੝⌊⌣䔠慭汩㔠⠠慄⁹㐱਩畓橢捥⁴㩁吠楨⁳楬敮椠⁳灯湥眠敨⁮潹⁵敮摥椠ੴ畓橢捥⁴㩂䄠挠污Ɑ瀠楲慶整渠硥⁴瑳灥ਊ楈笠晻物瑳湟浡絥ⱽਊ桔獩攠慭汩眠汩⁬敢栠牥⁥桷湥癥牥礠畯渠敥⁤瑩‮晉礠畯胢犙⁥敲摡ⱹ挠污⁬㠨㜷 ㄸⴸ㔵㤳映牯愠挠湯楦敤瑮慩⁬潣癮牥慳楴湯ਮ钀䌠慬物⁥⹍䄊浤獩楳湯⁳楌楡潳Ɱ吠敨䐠湵獥䔠獡⁴慈灭潴੮㠨㜷 ㄸⴸ㔵㤳唊獮扵捳楲敢›汛湩嵫ਊ牃獯⵳楴牥攠捳污瑡潩㩮ⴊ䠠瑯氠慥獤眠潨搠湯胢璙挠湯敶瑲椠⁮‷慤獹爠汯⁬湩潴圠牡⁭瑡䔠慭汩㈠ਮ‭慗浲氠慥獤眠潨搠湯胢璙攠杮条⁥湩ㄠ‴慤獹爠汯⁬湩潴䌠汯⁤瑡䔠慭汩㌠മ
+﻿# The Dunes East Hampton - Email Nurture Sequences
+
+Sender recommendation: Claire M., Admissions Liaison
+Phone in footer: (877) 818-5539
+
+## HOT LEAD - "Crisis to Commitment"
+
+### Email 1 (Immediate)
+Subject A: Your confidential assessment results
+Subject B: A private path forward, starting today
+
+Hi {{first_name}},
+
+Thank you for completing the confidential assessment. Based on your responses, the next step is a private conversation to clarify immediate needs and the safest level of care.
+
+We are here to make this simple and discreet. If you are ready, call us now and we will walk you through options and timing.
+
+Primary CTA: Call (877) 818-5539
+
+- Claire M.
+Admissions Liaison, The Dunes East Hampton
+(877) 818-5539
+Confidential and private. Individual results may vary.
+Unsubscribe: [link]
+
+### Email 2 (4 hours later)
+Subject A: What happens after you call
+Subject B: A calm, private first step
+
+Hi {{first_name}},
+
+If you call today, here is what happens:
+1) A confidential conversation with admissions
+2) A short review of what is happening right now
+3) A recommended level of care and timeline
+4) Clear next steps (no pressure)
+
+We can also discuss privacy needs and any professional responsibilities that require discretion.
+
+Primary CTA: Call (877) 818-5539
+
+- Claire M.
+Admissions Liaison, The Dunes East Hampton
+(877) 818-5539
+Confidential and private. Individual results may vary.
+Unsubscribe: [link]
+
+### Email 3 (Day 2)
+Subject A: Cost, insurance, and financial clarity
+Subject B: Practical details, privately handled
+
+Hi {{first_name}},
+
+Cost and coverage are common concerns. We will verify insurance where possible and explain private pay options in plain language.
+
+You deserve clarity without judgment or pressure.
+
+Primary CTA: Call (877) 818-5539
+
+- Claire M.
+Admissions Liaison, The Dunes East Hampton
+(877) 818-5539
+Confidential and private. Individual results may vary.
+Unsubscribe: [link]
+
+### Email 4 (Day 4)
+Subject A: "I got my life back." - D.M.
+Subject B: A real story from The Dunes
+
+Hi {{first_name}},
+
+One of our past clients shared:
+"Thanks for giving me my life back. I'm so happy!" - D.M.
+
+Everyone's journey is different, but you do not have to do this alone. A private call can help you decide if The Dunes is right for you.
+
+Primary CTA: Call (877) 818-5539
+
+- Claire M.
+Admissions Liaison, The Dunes East Hampton
+(877) 818-5539
+Individual results may vary.
+Unsubscribe: [link]
+
+### Email 5 (Day 7)
+Subject A: We are here when you are ready
+Subject B: A private line, whenever you need it
+
+Hi {{first_name}},
+
+If you are not ready today, that is okay. Our admissions team is here when the time is right.
+
+Call or reply to this email and we will respond discreetly.
+
+Primary CTA: Call (877) 818-5539
+
+- Claire M.
+Admissions Liaison, The Dunes East Hampton
+(877) 818-5539
+Confidential and private. Individual results may vary.
+Unsubscribe: [link]
+
+## WARM LEAD - "Research to Readiness"
+
+### Email 1 (Immediate)
+Subject A: Your confidential guide and next steps
+Subject B: Your assessment results inside
+
+Hi {{first_name}},
+
+Here is your confidential guide and a short overview of what your results mean. The Dunes offers private, individualized treatment designed for people who need discretion and lasting support.
+
+If you would like to talk through options, you can schedule a private call at any time.
+
+Primary CTA: Schedule a Private Assessment Call
+Secondary CTA: Call (877) 818-5539
+
+- Claire M.
+Admissions Liaison, The Dunes East Hampton
+(877) 818-5539
+Confidential and private. Individual results may vary.
+Unsubscribe: [link]
+
+### Email 2 (Day 2)
+Subject A: What makes The Dunes different
+Subject B: Privacy and clinical excellence
+
+Hi {{first_name}},
+
+The Dunes combines evidence based treatment with a discreet, executive level environment. Our approach blends clinical care with restorative, holistic support so recovery is realistic and sustainable.
+
+If you are evaluating options, we are happy to answer questions confidentially.
+
+Primary CTA: Schedule a Private Assessment Call
+
+- Claire M.
+Admissions Liaison, The Dunes East Hampton
+(877) 818-5539
+Unsubscribe: [link]
+
+### Email 3 (Day 4)
+Subject A: A typical day at The Dunes
+Subject B: What the experience feels like
+
+Hi {{first_name}},
+
+A typical day includes clinical therapy, individualized care planning, wellness activities, and time for restoration. Everything is designed to protect privacy and support long term recovery.
+
+If you want to understand fit, a short call can help.
+
+Primary CTA: Schedule a Private Assessment Call
+
+- Claire M.
+Admissions Liaison, The Dunes East Hampton
+(877) 818-5539
+Unsubscribe: [link]
+
+### Email 4 (Day 7)
+Subject A: Investment and insurance, explained
+Subject B: Clarity without pressure
+
+Hi {{first_name}},
+
+We can verify insurance and explain private pay options in a simple, confidential call. No pressure, just clarity.
+
+Primary CTA: Schedule a Private Assessment Call
+Secondary CTA: Call (877) 818-5539
+
+- Claire M.
+Admissions Liaison, The Dunes East Hampton
+(877) 818-5539
+Unsubscribe: [link]
+
+### Email 5 (Day 10)
+Subject A: When you are ready, we will be here
+Subject B: Two simple next steps
+
+Hi {{first_name}},
+
+If you are ready to move forward, here are two paths:
+1) Call (877) 818-5539
+2) Reply with a time that works and we will reach out
+
+We will keep it private and respectful, always.
+
+- Claire M.
+Admissions Liaison, The Dunes East Hampton
+(877) 818-5539
+Unsubscribe: [link]
+
+## COLD LEAD - "Education to Engagement"
+
+### Email 1 (Immediate)
+Subject A: Your confidential guide
+Subject B: A private first step
+
+Hi {{first_name}},
+
+Here is your confidential guide. It outlines options and next steps for those considering treatment in a private, discreet setting.
+
+If you would like to talk privately, we are here.
+
+Primary CTA: Download the Guide
+Secondary CTA: Call (877) 818-5539
+
+- Claire M.
+Admissions Liaison, The Dunes East Hampton
+(877) 818-5539
+Unsubscribe: [link]
+
+### Email 2 (Day 3)
+Subject A: How to evaluate treatment options
+Subject B: What to look for in a rehab program
+
+Hi {{first_name}},
+
+Key questions to consider:
+- Is the program individualized or standardized?
+- How is privacy handled?
+- Is dual diagnosis care available?
+- What aftercare support is provided?
+
+If you want a private answer to any of these, call us.
+
+Primary CTA: Call (877) 818-5539
+
+- Claire M.
+Admissions Liaison, The Dunes East Hampton
+(877) 818-5539
+Unsubscribe: [link]
+
+### Email 3 (Day 6)
+Subject A: Levels of care, simply explained
+Subject B: Inpatient vs outpatient - a quick guide
+
+Hi {{first_name}},
+
+Residential care provides a private, immersive environment for recovery. Outpatient care offers structure while allowing more daily flexibility. We can help you decide which is safest and most effective based on your situation.
+
+Primary CTA: Call (877) 818-5539
+
+- Claire M.
+Admissions Liaison, The Dunes East Hampton
+(877) 818-5539
+Unsubscribe: [link]
+
+### Email 4 (Day 10)
+Subject A: From a family perspective
+Subject B: Supporting someone you love
+
+Hi {{first_name}},
+
+If you are seeking help for someone you love, you are not alone. A private conversation can clarify the right next step without pressure or judgment.
+
+Primary CTA: Call (877) 818-5539
+
+- Claire M.
+Admissions Liaison, The Dunes East Hampton
+(877) 818-5539
+Unsubscribe: [link]
+
+### Email 5 (Day 14)
+Subject A: This email will be here when you need it
+Subject B: A calm, private next step
+
+Hi {{first_name}},
+
+This email will be here whenever you need it. If you are ready, call (877) 818-5539 for a confidential conversation.
+
+- Claire M.
+Admissions Liaison, The Dunes East Hampton
+(877) 818-5539
+Unsubscribe: [link]
+
+Cross tier escalation:
+- Hot leads who do not convert in 7 days roll into Warm at Email 2.
+- Warm leads who do not engage in 14 days roll into Cold at Email 3.

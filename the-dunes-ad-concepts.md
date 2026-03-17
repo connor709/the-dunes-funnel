@@ -1,1 +1,116 @@
-‣桔⁥畄敮⁳慅瑳䠠浡瑰湯钀䄠⁤潃据灥獴⠠〱਩䄊汬愠獤愠潶摩瀠牥潳慮⵬瑡牴扩瑵⁥慬杮慵敧愠摮朠慵慲瑮敥⁤畯捴浯獥‮效污桴慣敲挠浯汰慩据㩥渠⁯楤条潮楳⁳汣楡獭‬潮倠䥈‬潮戠晥牯⽥晡整⹲䤠据畬敤鲀湩楤楶畤污爠獥汵獴洠祡瘠牡鶀眠敨⁮整瑳浩湯慩獬椠灭楬摥ਮ⌊‣畑穩䘠湵敮⁬摁⁳㔨਩ㄊ ⨪胢䎜湯楦敤瑮慩⁬敒潣敶祲䄠獳獥浳湥鶀⨪ⴊ嘠獩慵㩬䔠瑳瑡⁥硥整楲牯愠⁴潧摬湥栠畯⁲楷桴猠扵汴⁥慤歲漠敶汲祡‮桔⁥畄敮⁳潬潧琠灯氭晥⹴䌠湥整⁲整瑸›胢䎜湯楦敤瑮慩⁬敒潣敶祲䄠獳獥浳湥鶀⬠鲀鎀″業畮整鶀ਮ‭牐浩牡⁹敔瑸›胢䆜瀠楲慶整‬楤捳敲瑥眠祡琠⁯湵敤獲慴摮琠敲瑡敭瑮漠瑰潩獮椠⁮桴⁥慈灭潴獮鶀ⴊ䤠慭敧吠硥㩴鲀佃䙎䑉久䥔䱁䄠卓卅䵓久鶀⼠鲀剐噉呁⁅胢₢䥄䍓䕒呅胢ઝ‭效摡楬敮›胢厜慴瑲愠倠楲慶整䄠獳獥浳湥鶀ⴊ䐠獥牣灩楴湯›胢䞜瑥愠琠楡潬敲⁤敲潣浭湥慤楴湯鶀ⴊ䌠䅔›胢䲜慥湲䴠牯鶀ⴊ䌠浯汰慩据㩥丠⁯数獲湯污愠瑴楲畢整ⱳ渠⁯畧牡湡整獥ਮ㈊ ⨪胢䖜數畣楴敶䰭癥汥倠楲慶祣胢⪝ਪ‭楖畳污›湉整楲牯氠畯杮⽥畱敩⁴潲浯椠慭敧映潲⁭楳整‮潇摬愠捣湥⁴楬敮‬浳污⁬潬正椠潣⹮ⴊ倠楲慭祲吠硥㩴鲀楄捳敲楴湯洠瑡整獲‮硅汰牯⁥牰癩瑡⁥敲潣敶祲漠瑰潩獮椠⁮⁡慣浬‬硥捥瑵癩ⵥ敬敶⁬敳瑴湩⹧胢ઝ‭浉条⁥敔瑸›胢䖜䕘啃䥔䕖䰭噅䱅倠䥒䅖奃胢ઝ‭效摡楬敮›胢傜楲慶整䄠獳獥浳湥鶀ⴊ䐠獥牣灩楴湯›胢䎜湯楦敤瑮慩⁬湡⁤敲灳捥晴汵鶀ⴊ䌠䅔›胢䲜慥湲䴠牯鶀ⴊ䌠浯汰慩据㩥䄠潶摩⁳敳獮瑩癩⁥慴杲瑥湩⹧ਊ⤳⨠鲀慆業祬䘭物瑳匠灵潰瑲胢⪝ਪ‭楖畳污›敓敲敮漠瑵潤牯朠潲湵獤椠慭敧‮潓瑦漠敶汲祡眠瑩⁨牢湡⁤潧摬䌠䅔ਮ‭牐浩牡⁹敔瑸›胢䚜牯映浡汩敩⁳敳步湩⁧汣慥⁲敮瑸猠整獰‬畯⁲潣普摩湥楴污愠獳獥浳湥⁴敨灬⁳潹⁵湵敤獲慴摮琠敨爠杩瑨氠癥汥漠⁦慣敲鶀ⴊ䤠慭敧吠硥㩴鲀⁁䅃䵌䘠剉呓匠䕔鶀ⴊ䠠慥汤湩㩥鲀潃普摩湥楴污䄠獳獥浳湥鶀ⴊ䐠獥牣灩楴湯›胢亜⁯牰獥畳敲鶀ⴊ䌠䅔›胢䞜瑥匠慴瑲摥胢ઝ‭潃灭楬湡散›潎搠慩湧獯獩氠湡畧条⹥ਊ⤴⨠鲀牐癩瑡⁥慈灭潴獮䔠瑳瑡鶀⨪ⴊ嘠獩慵㩬䄠牥慩⽬牧畯摮⁳桳瑯※潬潧椠⁮潣湲牥‮潇摬⬠眠楨整琠灹杯慲桰⹹ⴊ倠楲慭祲吠硥㩴鲀⁁牰癩瑡⁥獥慴整椠⁮桴⁥慈灭潴獮搠獥杩敮⁤潦⁲楤捳敲瑥爠捥癯牥⹹胢ઝ‭浉条⁥敔瑸›胢傜䥒䅖䕔䠠䵁呐乏⁓卅䅔䕔胢ઝ‭效摡楬敮›胢䖜灸潬敲吠敨䐠湵獥胢ઝ‭敄捳楲瑰潩㩮鲀慔敫琠敨愠獳獥浳湥⹴胢ઝ‭呃㩁鲀敌牡⁮潍敲胢ઝ‭潃灭楬湡散›潎漠瑵潣敭⁳汣楡獭ਮ㔊 ⨪胢䎜牡⁥敌敶⁬汃牡瑩鶀⨪ⴊ嘠獩慵㩬儠極瑥爠潯⁭楷桴挠楬楮楣湡术敵瑳⠠晩愠慶汩扡敬⸩䴠湩浩污琠硥⹴ⴊ倠楲慭祲吠硥㩴鲀潎⁴畳敲眠楨档氠癥汥漠⁦慣敲映瑩㽳䄠猠潨瑲愠獳獥浳湥⁴牰癯摩獥挠慬楲祴鶀ⴊ䤠慭敧吠硥㩴鲀䥆䑎吠䕈删䝉呈䌠剁⁅䕌䕖鶀ⴊ䠠慥汤湩㩥鲀潃普摩湥楴污䄠獳獥浳湥鶀ⴊ䐠獥牣灩楴湯›胢㊜胢㎓洠湩瑵獥鶀ⴊ䌠䅔›胢䞜瑥匠慴瑲摥胢ઝ‭潃灭楬湡散›潎瀠牥潳慮⁬瑡牴扩瑵獥ਮ⌊‣敇敮慲⁬敓癲捩⽥牂湡⁤摁⁳㔨਩㘊 ⨪胢䲜硵牵⁹敒潣敶祲椠⁮桴⁥慈灭潴獮胢⪝ਪ‭楖畳污›獅慴整攠瑸牥潩⁲‫潬潧‮潇摬映慲敭ਮ‭牐浩牡⁹敔瑸›胢䆜瀠楲慶整‬楤捳敲瑥爠捥癯牥⁹湥楶潲浮湥⁴湩䔠獡⁴慈灭潴⹮胢ઝ‭浉条⁥敔瑸›胢咜䕈䐠乕卅䔠十⁔䅈偍佔鶀ⴊ䠠慥汤湩㩥鲀牐癩瑡⁥敒潣敶祲䔠癮物湯敭瑮胢ઝ‭敄捳楲瑰潩㩮鲀敌牡⁮扡畯⁴畯⁲灡牰慯档鶀ⴊ䌠䅔›胢䲜慥湲䴠牯鶀ⴊ䌠浯汰慩据㩥丠⁯畧牡湡整獥ਮ㜊 ⨪胢䎜楬楮慣⁬‫潈楬瑳捩胢⪝ਪ‭楖畳污›敗汬敮獳爠潯⁭浩条⹥匠汰瑩琠硥⁴汢捯獫ਮ‭牐浩牡⁹敔瑸›胢䖜楶敤据ⵥ慢敳⁤慣敲挠浯汰浥湥整⁤祢爠獥潴慲楴敶眠汥湬獥⁳桴牥灡敩⹳胢ઝ‭浉条⁥敔瑸›胢䎜䥌䥎䅃⁌‫佈䥌呓䍉胢ઝ‭效摡楬敮›胢侜牵吠敲瑡敭瑮䄠灰潲捡鶀ⴊ䐠獥牣灩楴湯›胢䖜灸潬敲瀠潲牧浡⹳胢ઝ‭呃㩁鲀敌牡⁮潍敲胢ઝ‭潃灭楬湡散›潎挠牵⁥慬杮慵敧ਮ㠊 ⨪胢䒜獩牣敥⁴摁業獳潩獮胢⪝ਪ‭楖畳污›畓瑢敬搠牡⁫慢正牧畯摮眠瑩⁨潧摬瀠潨敮䌠䅔ਮ‭牐浩牡⁹敔瑸›胢䆜浤獩楳湯⁳慨摮敬⁤牰癩瑡汥ⱹ眠瑩⁨敲灳捥⁴潦⁲潹牵猠档摥汵⁥湡⁤潣普摩湥楴污瑩⹹胢ઝ‭浉条⁥敔瑸›胢傜䥒䅖䕔䄠䵄卉䥓乏鶀ⴊ䠠慥汤湩㩥鲀慃汬映牯愠䌠湯楦敤瑮慩⁬潃獮汵慴楴湯胢ઝ‭敄捳楲瑰潩㩮鲀潎瀠敲獳牵⹥胢ઝ‭呃㩁鲀慃汬丠睯胢ઝ‭潃灭楬湡散›潎瀠牥潳慮⁬瑡牴扩瑵獥ਮ㤊 ⨪胢䆜瑦牥慣敲☠䄠畬湭鶀⨪ⴊ嘠獩慵㩬䌠污⁭畯摴潯⁲浩条⁥‫浳污⁬捩湯⹳ⴊ倠楲慭祲吠硥㩴鲀潌杮琭牥⁭敲潣敶祲猠灵潰瑲愠摮愠畬湭⁩慣敲鶀ⴊ䤠慭敧吠硥㩴鲀佌䝎吭剅⁍啓偐剏鶀ⴊ䠠慥汤湩㩥鲀敓⁥畏⁲潃瑮湩畵⁭景䌠牡鶀ⴊ䐠獥牣灩楴湯›胢䲜慥湲洠牯⹥胢ઝ‭呃㩁鲀敌牡⁮潍敲胢ઝ‭潃灭楬湡散›潎朠慵慲瑮敥⹳ਊ〱 ⨪胢䒜獩牣敥⁴慆業祬䜠極慤据鶀⨪ⴊ嘠獩慵㩬䴠湩浩污獩楴⁣祴潰牧灡票漠⁮慤歲戠捡杫潲湵⹤ⴊ倠楲慭祲吠硥㩴鲀畇摩湡散映牯映浡汩敩⁳敳步湩⁧牰癩瑡⁥敲潣敶祲漠瑰潩獮鶀ⴊ䤠慭敧吠硥㩴鲀剐噉呁⁅䅆䥍奌䜠䥕䅄䍎鶀ⴊ䠠慥汤湩㩥鲀灓慥⁫楷桴䄠浤獩楳湯鶀ⴊ䐠獥牣灩楴湯›胢䎜湯楦敤瑮慩⹬胢ઝ‭呃㩁鲀潃瑮捡⁴獕胢ઝ‭潃灭楬湡散›潎搠慩湧獯獩氠湡畧条⹥ਊ⌣‣潆浲瑡匠数獣ⴊㄠ㠰砰〱〸‬〱〸ㅸ㈹ⰰㄠ〲砰㈶ਸ⌊⌣吠牡敧楴杮䜠極慤据⁥䠨慥瑬捨牡⽥敒潣敶祲਩‭汁潬敷㩤挠湯整瑸慵⁬湩整敲瑳⁳眨汥湬獥ⱳ洠湥慴⁬敨污桴愠慷敲敮獳Ⱙ朠潥慴杲瑥湩Ⱨ朠湥牥污愠敧㈠⬵ਮ‭牐桯扩瑩摥›慴杲瑥湩⁧祢栠慥瑬⁨潣摮瑩潩獮‬摡楤瑣潩⁮敲潣敶祲洠浥敢獲楨⁰楬瑳ⱳ漠⁲湩敦牲摥猠湥楳楴敶琠慲瑩⹳ਊ⌣‣敒慴杲瑥湩⁧慍牴硩ⴊ儠極⁺楶楳潴獲⠠潮氠慥⥤›桳睯儠極⁺摁⁳鎀ਲ਼‭敌摡猠扵業瑴摥‬潮挠污㩬猠潨⁷摁⁳ⰲ㔠‬ਸ‭慗浲攠杮条浥湥㩴猠潨⁷摁⁳鎀ਹ⌊⌣倠敲氭畡据⁨潃灭楬湡散䌠敨正楬瑳ⴊ丠⁯胢禜畯⬠挠湯楤楴湯胢₝慬杮慵敧ⴊ丠⁯浩汰敩⁤楤条潮楳ੳ‭潎朠慵慲瑮敥⁳牯挠牵⁥慬杮慵敧ⴊ䤠据畬敤瀠楲慶祣振湯敳瑮漠⁮慬摮湩⁧慰敧ⴊ吠獥楴潭楮污⁳湩汣摵⁥胢榜摮癩摩慵⁬敲畳瑬⁳慭⁹慶祲胢ඝ
+﻿# The Dunes East Hampton - Ad Concepts (10)
+
+All ads avoid personal attribute language and guaranteed outcomes. Healthcare compliance: no diagnosis claims, no PHI, no before/after. Include "individual results may vary" when testimonials are implied.
+
+## Quiz Funnel Ads (5)
+
+1) "Confidential Recovery Assessment"
+- Visual: Estate exterior at golden hour with subtle dark overlay. The Dunes logo top-left. Center text: "Confidential Recovery Assessment" + "2-3 minutes".
+- Primary Text: "A private, discreet way to understand treatment options in the Hamptons."
+- Image Text: "CONFIDENTIAL ASSESSMENT" / "PRIVATE - DISCREET"
+- Headline: "Start a Private Assessment"
+- Description: "Get a tailored recommendation."
+- CTA: "Learn More"
+- Compliance: No personal attributes, no guarantees.
+
+2) "Executive Level Privacy"
+- Visual: Interior lounge or quiet room image from site. Gold accent line, small lock icon.
+- Primary Text: "Discretion matters. Explore private recovery options in a calm, executive level setting."
+- Image Text: "EXECUTIVE LEVEL PRIVACY"
+- Headline: "Private Assessment"
+- Description: "Confidential and respectful."
+- CTA: "Learn More"
+- Compliance: Avoids sensitive targeting.
+
+3) "Family First Support"
+- Visual: Serene outdoor grounds image. Soft overlay with brand gold CTA.
+- Primary Text: "For families seeking clear next steps, our confidential assessment helps you understand the right level of care."
+- Image Text: "A CALM FIRST STEP"
+- Headline: "Confidential Assessment"
+- Description: "No pressure."
+- CTA: "Get Started"
+- Compliance: No diagnosis language.
+
+4) "Private Hamptons Estate"
+- Visual: Aerial or grounds shot; logo in corner. Gold and white typography.
+- Primary Text: "A private estate in the Hamptons designed for discreet recovery."
+- Image Text: "PRIVATE HAMPTONS ESTATE"
+- Headline: "Explore The Dunes"
+- Description: "Take the assessment."
+- CTA: "Learn More"
+- Compliance: No outcomes claims.
+
+5) "Care Level Clarity"
+- Visual: Quiet room with clinician or guest (if available). Minimal text.
+- Primary Text: "Not sure which level of care fits? A short assessment provides clarity."
+- Image Text: "FIND THE RIGHT CARE LEVEL"
+- Headline: "Confidential Assessment"
+- Description: "2-3 minutes."
+- CTA: "Get Started"
+- Compliance: No personal attributes.
+
+## General Service and Brand Ads (5)
+
+6) "Luxury Recovery in the Hamptons"
+- Visual: Estate exterior plus logo. Gold frame.
+- Primary Text: "A private, discreet recovery environment in East Hampton."
+- Image Text: "THE DUNES EAST HAMPTON"
+- Headline: "Private Recovery Environment"
+- Description: "Learn about our approach."
+- CTA: "Learn More"
+- Compliance: No guarantees.
+
+7) "Clinical and Holistic"
+- Visual: Wellness room image. Split text blocks.
+- Primary Text: "Evidence based care complemented by restorative wellness therapies."
+- Image Text: "CLINICAL + HOLISTIC"
+- Headline: "Our Treatment Approach"
+- Description: "Explore programs."
+- CTA: "Learn More"
+- Compliance: No cure language.
+
+8) "Discreet Admissions"
+- Visual: Subtle dark background with gold phone CTA.
+- Primary Text: "Admissions handled privately, with respect for your schedule and confidentiality."
+- Image Text: "PRIVATE ADMISSIONS"
+- Headline: "Call for a Confidential Consultation"
+- Description: "No pressure."
+- CTA: "Call Now"
+- Compliance: No personal attributes.
+
+9) "Aftercare and Alumni"
+- Visual: Calm outdoor image plus small icons.
+- Primary Text: "Long term recovery support and alumni care."
+- Image Text: "LONG TERM SUPPORT"
+- Headline: "See Our Continuum of Care"
+- Description: "Learn more."
+- CTA: "Learn More"
+- Compliance: No guarantees.
+
+10) "Discreet Family Guidance"
+- Visual: Minimalistic typography on dark background.
+- Primary Text: "Guidance for families seeking private recovery options."
+- Image Text: "PRIVATE FAMILY GUIDANCE"
+- Headline: "Speak with Admissions"
+- Description: "Confidential."
+- CTA: "Contact Us"
+- Compliance: No diagnosis language.
+
+Format Specs:
+- 1080x1080, 1080x1920, 1200x628
+
+Targeting Guidance (Healthcare and Recovery):
+- Allowed: contextual interests (wellness, mental health awareness), geotargeting, general age 25+.
+- Prohibited: targeting by health conditions, addiction recovery membership lists, or inferred sensitive traits.
+
+Retargeting Matrix:
+- Quiz visitors (no lead): show Quiz Ads 1-3
+- Lead submitted, no call: show Ads 2, 5, 8
+- Warm engagement: show Ads 6-9
+
+Pre launch Compliance Checklist:
+- No "you + condition" language
+- No implied diagnosis
+- No guarantees or cure language
+- Include privacy and consent on landing page
+- Testimonials include "individual results may vary"
