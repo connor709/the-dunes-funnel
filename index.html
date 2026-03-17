@@ -1,610 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>The Dunes East Hampton | Private Recovery Assessment</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://use.typekit.net/dnv6avg.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Zalando+Sans:ital,wght@0,200..900;1,200..900&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>
-    :root{
-      /* Brand tokens pulled from Oxygen variables.css */
-      --primary:#917130;
-      --secondary:#0AC92F;
-      --tertiary:#003366;
-      --light:#E9E9E9;
-      --neutral:#757575;
-      --dark:#2A2A2A;
-      --black:#000;
-      --white:#FFF;
-
-      /* Typography pulled from global-settings.css */
-      --font-heading:"aviano-serif","Cinzel",serif;
-      --font-body:"Zalando Sans","Helvetica Neue",Arial,sans-serif;
-      --font-ui:"Zalando Sans","Helvetica Neue",Arial,sans-serif;
-      --font-ui-wide:"Zalando Sans Expanded","Zalando Sans",sans-serif;
-
-      /* Dunes commonly uses squared CTAs */
-      --radius:0px;
-      --radius-soft:3px;
-
-      --section-pad:96px;
-      --shadow-soft:0 10px 24px rgba(0,0,0,.08);
-      --shadow-hero:0 24px 60px rgba(0,0,0,.18);
-    }
-    *{box-sizing:border-box;}
-    body{margin:0;font-family:var(--font-body);color:var(--dark);background:#fff;font-size:16px;font-weight:300;line-height:1.4;}
-    a{color:inherit;text-decoration:none;}
-    img{max-width:100%;display:block;}
-    .container{width:min(1120px,92%);margin:0 auto;}
-
-    /* NAV */
-    .nav{position:sticky;top:0;z-index:30;background:rgba(255,255,255,0.92);backdrop-filter:saturate(120%) blur(8px);border-bottom:1px solid #eee;}
-    .nav-inner{display:flex;align-items:center;justify-content:space-between;padding:14px 0;gap:18px;}
-    .logo img{height:44px;width:auto;}
-    .nav-cta{display:flex;align-items:center;gap:18px;font-weight:600;}
-    .btn{background:var(--primary);color:#fff;border:1px solid transparent;padding:14px 24px;border-radius:var(--radius);font-family:var(--font-ui);text-transform:uppercase;letter-spacing:.08em;font-size:13px;font-weight:400;cursor:pointer;line-height:1;}
-    .btn:hover{background:var(--tertiary);} 
-
-    /* HERO */
-    .hero{min-height:90vh;display:grid;align-items:center;background:
-      linear-gradient(120deg, rgba(42,42,42,.86), rgba(42,42,42,.28)),
-      url('https://theduneseasthampton.com/wp-content/uploads/2026/03/248A2319-HDR-1.webp') center/cover no-repeat;
-      color:#fff;padding:80px 0;}
-    .hero .container{display:grid;grid-template-columns:1.25fr .75fr;gap:44px;align-items:center;}
-    .eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.22em;color:rgba(255,255,255,.75);font-family:var(--font-ui-wide);}
-
-    /* Global headings matching The Dunes' rendered hierarchy */
-    h1,h2,h3,h4{margin:0;}
-    h1{font-family:var(--font-heading);font-size:3.0rem;font-weight:400;line-height:1.06;text-transform:uppercase;text-wrap:pretty;letter-spacing:.01em;}
-    h2{font-family:var(--font-heading);font-size:2.1rem;font-weight:400;line-height:1.12;text-transform:uppercase;text-wrap:pretty;}
-    h3{font-family:var(--font-ui-wide);font-size:1.05rem;font-weight:400;line-height:1.2;text-transform:uppercase;letter-spacing:.08em;color:var(--primary);}
-    h4{font-family:var(--font-ui);font-size:1rem;font-weight:400;line-height:1.35;color:var(--dark);}
-
-    .hero h1{max-width:760px;}
-    .hero p{font-size:16px;line-height:1.75;margin:16px 0 22px;max-width:560px;color:rgba(255,255,255,.88);}
-    .hero-card{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.22);backdrop-filter:blur(10px);border-radius:16px;padding:18px;max-width:480px;}
-    .hero-card .tag{color:rgba(255,255,255,.75);font-weight:500;letter-spacing:.14em;font-size:11px;font-family:var(--font-ui-wide);text-transform:uppercase;}
-    .hero-meta{display:flex;gap:16px;align-items:center;margin:18px 0;}
-    .hero-meta .line{height:58px;width:2px;background:linear-gradient(var(--primary),var(--secondary));}
-    .hero-meta .note{font-size:13px;opacity:.92;max-width:360px;color:rgba(255,255,255,.85);}
-
-    .quiz-card{background:#fff;color:#111;border-radius:16px;padding:26px;box-shadow:var(--shadow-hero);}
-    .quiz-card .eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.2em;color:#7c7c7c;}
-    .quiz-card h3{font-family:var(--font-heading);margin:10px 0 18px;font-size:22px;color:var(--dark);line-height:1.15;text-transform:uppercase;} 
-    .option{border:1px solid #e5e5e5;border-radius:var(--radius-soft);padding:14px;display:flex;align-items:center;gap:12px;margin-bottom:10px;cursor:pointer;transition:.2s;background:#fff;}
-    .option:hover{border-color:var(--primary);background:rgba(145,113,48,.06);} 
-    .radio{height:18px;width:18px;border-radius:50%;border:2px solid var(--primary);display:inline-flex;align-items:center;justify-content:center;}
-    .radio::after{content:'';height:8px;width:8px;border-radius:50%;background:var(--primary);opacity:0;}
-    .option:hover .radio::after{opacity:.4;} 
-    .confidential{font-size:12px;color:#666;margin-top:10px;}
-
-    /* TRUST BAND */
-    .trust-band{background:var(--light);padding:22px 0;border-bottom:1px solid #eee;}
-    .trust-row{display:flex;gap:14px;flex-wrap:wrap;align-items:center;}
-    .trust-pill{display:flex;align-items:center;justify-content:center;background:linear-gradient(#ffffff,#fbfbfb);border:1px solid #e6e6e6;border-radius:999px;padding:10px 18px;min-height:52px;box-shadow:0 6px 16px rgba(0,0,0,.05);overflow:hidden;}
-    .trust-pill img{height:30px;width:auto;max-width:160px;object-fit:contain;filter:grayscale(100%) contrast(1.05);opacity:.95;}
-
-    /* SECTIONS */
-    .section{padding:var(--section-pad) 0;}
-    .light{background:var(--light);} 
-    .section h2{color:var(--dark);}
-    .section p{line-height:1.8;color:var(--dark);}
-    .split{display:grid;grid-template-columns:1.1fr .9fr;gap:32px;align-items:center;} 
-    .image-frame{border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-soft);background:#f3f3f3;min-height:340px;aspect-ratio:4/3;} 
-    .image-frame img{width:100%;height:100%;object-fit:cover;}
-    .kicker{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--primary);font-family:var(--font-ui-wide);}
-
-    .list{display:grid;gap:12px;margin-top:18px;}
-    .list-item{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px solid #e0dbd2;}
-    .list-item span{color:var(--primary);font-weight:700;font-family:var(--font-ui-wide);}
-
-    .gallery{display:grid;grid-template-columns:1.2fr .8fr;gap:18px;}
-    .gallery .stack{display:grid;gap:18px;}
-
-    .programs{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:22px;}
-    .programs .block{background:#fff;border:1px solid #eee;border-radius:var(--radius);padding:22px;box-shadow:0 8px 18px rgba(0,0,0,.06);} 
-
-    .cta-banner{background:var(--dark);color:#fff;padding:64px 0;}
-    .cta-banner .btn{background:var(--secondary);color:#0b1d0b;} 
-
-    .footer{background:#111;color:#bbb;padding:40px 0;font-size:13px;} 
-
-    /* MODAL */
-    .modal{position:fixed;inset:0;background:rgba(0,0,0,.85);display:none;align-items:center;justify-content:center;z-index:50;backdrop-filter:blur(6px);} 
-    .modal.active{display:flex;} 
-    .modal-card{background:#fff;border-radius:16px;width:min(580px,92%);padding:22px;} 
-    .progress{height:6px;background:#eee;border-radius:999px;overflow:hidden;margin-bottom:16px;} 
-    .progress-fill{height:100%;background:linear-gradient(90deg,var(--primary),var(--secondary));width:0%;transition:width .3s;} 
-    .modal-question{font-family:var(--font-heading);font-size:22px;margin:6px 0 14px;color:var(--dark);} 
-
-    /* LOADING */
-    .loading{position:fixed;inset:0;background:var(--dark);color:#fff;display:none;align-items:center;justify-content:center;z-index:60;flex-direction:column;gap:20px;text-align:center;padding:20px;} 
-    .loading.active{display:flex;} 
-    .loading img{height:60px;filter:brightness(0) invert(1);} 
-    .loading-bar{width:min(420px,86%);height:8px;background:rgba(255,255,255,.2);border-radius:999px;overflow:hidden;} 
-    .loading-bar span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--secondary),var(--primary));} 
-
-    @media (max-width: 900px){
-      .hero{min-height:auto;padding:90px 0;}
-      .hero .container{grid-template-columns:1fr;}
-      .split,.gallery,.programs{grid-template-columns:1fr;}
-      .nav-inner{flex-direction:column;gap:10px;}
-      .section{padding:72px 0;}
-      .trust-row{justify-content:center;}
-    }
-    @media (max-width:1119px){ h1{font-size:2.65rem;} h2{font-size:1.9rem;} }
-    @media (min-width:1120px) and (max-width:1600px){ h1{font-size:2.85rem;} h2{font-size:2.0rem;} }
-    @media (max-width:900px){ .hero .container{grid-template-columns:1fr;} }
-    @media (max-width:767px){ h1{font-size:1.6rem;} h2{font-size:1.45rem;} h3{font-size:.95rem;} }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Confidential Recovery Assessment | The Dunes East Hampton</title>
+<meta name="description" content="Take a confidential assessment to find your path to recovery. Private 12-client estate in the Hamptons. Luxury addiction treatment with clinical excellence.">
+<link rel="icon" href="https://theduneseasthampton.com/wp-content/uploads/2026/02/cropped-favicon-32x32.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--primary:#8C7045;--primary-dark:#5C4A2E;--accent:#B8975A;--dark:#1A1A1A;--body:#3A3A3A;--muted:#999;--light-bg:#F6F5F2;--white:#fff;--off-white:#FAFAF8;--heading:'Cormorant Garamond',Georgia,serif;--sans:'DM Sans',-apple-system,sans-serif;--radius:4px;--pad:100px;}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased;}
+body{font-family:var(--sans);font-size:16px;line-height:1.7;color:var(--body);background:var(--white);overflow-x:hidden;}
+body.no-scroll{overflow:hidden;}
+img{max-width:100%;height:auto;display:block;}
+a{text-decoration:none;color:inherit;}
+ul{list-style:none;}
+.btn{display:inline-flex;align-items:center;justify-content:center;font-family:var(--sans);font-weight:500;font-size:13px;letter-spacing:.12em;text-transform:uppercase;border:none;cursor:pointer;transition:all .3s;padding:14px 32px;border-radius:var(--radius);}
+.btn-primary{background:var(--primary);color:#fff;}
+.btn-primary:hover{background:var(--primary-dark);transform:translateY(-1px);box-shadow:0 6px 20px rgba(140,112,69,.25);}
+.btn-outline{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.5);}
+.btn-outline:hover{background:rgba(255,255,255,.1);border-color:#fff;}
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid rgba(0,0,0,.06);transition:box-shadow .3s;}
+.nav.scrolled{box-shadow:0 2px 20px rgba(0,0,0,.06);}
+.nav-inner{max-width:1200px;margin:0 auto;padding:0 32px;display:flex;align-items:center;justify-content:space-between;height:70px;}
+.nav-logo img{height:32px;width:auto;}
+.nav-right{display:flex;align-items:center;gap:20px;}
+.nav-phone{font-weight:500;font-size:14px;color:var(--dark);letter-spacing:.02em;}
+.nav-cta{font-size:11px;padding:10px 22px;}
+@media(max-width:640px){.nav-phone span{display:none;}.nav-inner{height:58px;padding:0 16px;}.nav-logo img{height:26px;}}
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;padding-top:70px;overflow:hidden;}
+.hero-bg{position:absolute;inset:0;z-index:0;}
+.hero-bg img{width:100%;height:100%;object-fit:cover;}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(110deg,rgba(26,26,26,.78) 0%,rgba(26,26,26,.4) 50%,rgba(26,26,26,.25) 100%);z-index:1;}
+.hero-split{position:relative;z-index:2;max-width:1200px;margin:0 auto;padding:80px 32px;display:grid;grid-template-columns:1fr 400px;gap:56px;align-items:center;}
+.hero-left h1{font-family:var(--heading);font-weight:400;font-size:50px;line-height:1.12;color:#fff;margin-bottom:16px;}
+.hero-left h1 em{font-style:italic;font-weight:300;}
+.hero-sub{font-weight:300;font-size:17px;line-height:1.65;color:rgba(255,255,255,.8);margin-bottom:24px;max-width:500px;}
+.hero-bubble{background:rgba(255,255,255,.08);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.15);border-radius:12px;padding:18px 20px;max-width:460px;margin-bottom:24px;}
+.hero-bubble .tag{font-size:10px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:6px;}
+.hero-bubble p{color:rgba(255,255,255,.85);font-size:14px;line-height:1.6;margin-bottom:4px;}
+.hero-bubble .small{font-size:12px;color:rgba(255,255,255,.5);}
+.hero-badges{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px;}
+.hero-badge{border:1px solid rgba(255,255,255,.3);padding:7px 14px;border-radius:var(--radius);font-size:11px;font-weight:500;color:rgba(255,255,255,.85);letter-spacing:.05em;text-transform:uppercase;}
+.hero-phone{color:#fff;font-weight:500;font-size:17px;letter-spacing:.02em;}
+@media(max-width:900px){.hero-split{grid-template-columns:1fr;gap:32px;padding:50px 20px;}.hero-left h1{font-size:34px;}.hero{min-height:auto;}}
+.qcard{background:#fff;border-radius:12px;padding:32px 28px;box-shadow:0 24px 64px rgba(0,0,0,.2);}
+.qcard-eyebrow{font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:4px;}
+.qcard h3{font-family:var(--heading);font-weight:500;font-size:24px;color:var(--dark);margin-bottom:6px;line-height:1.3;}
+.qcard-sub{font-size:13px;color:var(--muted);margin-bottom:20px;}
+.qcard-options{display:flex;flex-direction:column;gap:10px;}
+.qopt{display:flex;align-items:center;gap:12px;padding:14px 16px;border:1px solid #e8e6e1;border-radius:8px;cursor:pointer;transition:all .2s;font-size:15px;color:var(--dark);-webkit-tap-highlight-color:transparent;}
+.qopt:hover{border-color:var(--primary);background:rgba(140,112,69,.04);}
+.qopt .dot{width:18px;height:18px;border:2px solid #ccc;border-radius:50%;flex-shrink:0;transition:all .2s;}
+.qopt:hover .dot{border-color:var(--primary);}
+.qopt.sel{border-color:var(--primary);background:rgba(140,112,69,.06);font-weight:500;}
+.qopt.sel .dot{border-color:var(--primary);background:var(--primary);box-shadow:inset 0 0 0 3px #fff;}
+.qcard-lock{display:flex;align-items:center;gap:6px;margin-top:16px;font-size:11px;color:var(--muted);}
+.qcard-lock svg{width:13px;height:13px;flex-shrink:0;opacity:.6;}
+.modal{display:none;position:fixed;inset:0;z-index:200;background:rgba(26,26,26,.88);backdrop-filter:blur(6px);align-items:center;justify-content:center;padding:20px;}
+.modal.open{display:flex;}
+.modal-card{background:#fff;border-radius:12px;width:100%;max-width:560px;max-height:90vh;overflow-y:auto;}
+.modal-progress{height:4px;background:#eee;border-radius:12px 12px 0 0;overflow:hidden;}
+.modal-bar{height:100%;background:linear-gradient(90deg,var(--primary),var(--accent));transition:width .4s;width:0%;}
+.modal-body{padding:36px 32px;}
+.modal-step{font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:8px;}
+.modal-body h3{font-family:var(--heading);font-weight:500;font-size:24px;color:var(--dark);margin-bottom:24px;line-height:1.3;}
+.mopt{display:flex;align-items:center;gap:14px;padding:15px 18px;border:1px solid #e8e6e1;border-radius:8px;cursor:pointer;transition:all .2s;font-size:15px;color:var(--dark);margin-bottom:10px;-webkit-tap-highlight-color:transparent;}
+.mopt:hover{border-color:var(--primary);background:rgba(140,112,69,.04);}
+.mopt.sel{border-color:var(--primary);background:rgba(140,112,69,.06);font-weight:500;}
+.mopt .dot{width:20px;height:20px;border:2px solid #ccc;border-radius:50%;flex-shrink:0;transition:all .2s;}
+.mopt:hover .dot{border-color:var(--primary);}
+.mopt.sel .dot{border-color:var(--primary);background:var(--primary);box-shadow:inset 0 0 0 3px #fff;}
+.modal-lock{display:flex;align-items:center;gap:6px;margin-top:20px;font-size:11px;color:var(--muted);}
+.modal-lock svg{width:13px;height:13px;flex-shrink:0;opacity:.6;}
+.modal-info{text-align:center;padding:16px 0;}
+.modal-info h3{font-size:28px;color:var(--primary);margin-bottom:10px;}
+.modal-info p{font-size:16px;color:var(--body);line-height:1.7;margin-bottom:6px;}
+.modal-info .small{font-size:12px;color:var(--muted);margin-bottom:20px;}
+.modal-fade{animation:fadeUp .3s ease;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
+.form-input{font-family:var(--sans);font-size:14px;padding:13px 16px;border:1px solid #e0ded9;border-radius:6px;background:#fff;color:var(--dark);outline:none;transition:border .2s;width:100%;margin-bottom:10px;}
+.form-input:focus{border-color:var(--primary);}
+.form-input::placeholder{color:#bbb;}
+@media(max-width:640px){.modal-body{padding:24px 18px;}.modal-body h3{font-size:20px;}}
+.ld-screen{display:none;position:fixed;inset:0;z-index:300;background:var(--primary-dark);flex-direction:column;align-items:center;justify-content:center;gap:32px;}
+.ld-screen.on{display:flex;}
+.ld-screen img{max-width:140px;height:auto;filter:brightness(0) invert(1);}
+.ld-wrap{width:280px;max-width:80vw;}
+.ld-bar{height:4px;background:rgba(255,255,255,.15);border-radius:2px;overflow:hidden;}
+.ld-fill{height:100%;background:linear-gradient(90deg,var(--accent),#dfc99a);width:0%;transition:width .15s linear;}
+.ld-msg{font-size:14px;color:rgba(255,255,255,.65);text-align:center;margin-top:14px;min-height:20px;transition:opacity .2s;}
+.section{padding:var(--pad) 0;}
+.section-light{background:var(--light-bg);}
+.container{max-width:1200px;margin:0 auto;padding:0 32px;}
+.s-eyebrow{font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:8px;}
+.s-title{font-family:var(--heading);font-weight:400;font-size:36px;line-height:1.2;color:var(--dark);margin-bottom:16px;}
+.s-sub{font-size:16px;color:var(--body);max-width:600px;line-height:1.7;}
+.s-header{text-align:center;margin-bottom:56px;}
+.s-header .s-sub{margin:0 auto;}
+@media(max-width:768px){.s-title{font-size:28px;}.section{padding:60px 0;}.container{padding:0 20px;}}
+.trust-bar{background:var(--off-white);padding:28px 0;border-bottom:1px solid rgba(0,0,0,.04);}
+.trust-inner{display:flex;align-items:center;justify-content:center;gap:36px;flex-wrap:wrap;}
+.trust-inner img{height:48px;width:auto;opacity:.7;}
+.trust-stat{text-align:center;font-size:13px;font-weight:500;color:var(--dark);}
+.trust-stat span{display:block;font-size:10px;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-bottom:2px;}
+.prob-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+.prob-card{padding:32px 28px;background:#fff;border-left:3px solid var(--primary);border-radius:0 8px 8px 0;box-shadow:0 4px 20px rgba(0,0,0,.04);}
+.prob-card h4{font-family:var(--heading);font-weight:500;font-size:20px;color:var(--dark);margin-bottom:10px;line-height:1.3;}
+.prob-card p{font-size:14px;color:var(--body);line-height:1.7;}
+@media(max-width:768px){.prob-grid{grid-template-columns:1fr;}}
+.fac-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+.fac-item{position:relative;overflow:hidden;border-radius:8px;aspect-ratio:4/3;}
+.fac-item.lg{grid-column:span 2;grid-row:span 2;aspect-ratio:auto;}
+.fac-item img{width:100%;height:100%;object-fit:cover;transition:transform .5s;}
+.fac-item:hover img{transform:scale(1.04);}
+.fac-cap{position:absolute;bottom:0;left:0;right:0;padding:12px 14px;background:linear-gradient(transparent,rgba(0,0,0,.6));color:#fff;font-size:12px;font-weight:500;letter-spacing:.04em;}
+@media(max-width:768px){.fac-grid{grid-template-columns:1fr 1fr;}.fac-item.lg{grid-column:span 2;}}
+.approach-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;}
+.approach-col h4{font-family:var(--heading);font-weight:500;font-size:22px;color:var(--dark);margin-bottom:20px;padding-bottom:12px;border-bottom:2px solid var(--primary);display:inline-block;}
+.approach-item{display:flex;align-items:flex-start;gap:10px;font-size:14px;color:var(--body);margin-bottom:12px;line-height:1.6;}
+.approach-item svg{width:16px;height:16px;flex-shrink:0;margin-top:3px;}
+@media(max-width:768px){.approach-grid{grid-template-columns:1fr;gap:36px;}}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.why-card{padding:28px 22px;background:#fff;border-radius:8px;box-shadow:0 4px 20px rgba(0,0,0,.04);text-align:center;transition:all .3s;border-bottom:3px solid transparent;}
+.why-card:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(0,0,0,.07);border-bottom-color:var(--primary);}
+.why-card h4{font-family:var(--heading);font-weight:500;font-size:18px;color:var(--dark);margin-bottom:8px;}
+.why-card p{font-size:13px;color:var(--body);line-height:1.65;}
+@media(max-width:768px){.why-grid{grid-template-columns:1fr;max-width:420px;margin:0 auto;}}
+.test-section{background:var(--dark);color:#fff;padding:var(--pad) 0;}
+.test-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.test-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:8px;padding:24px 20px;display:flex;flex-direction:column;}
+.test-card blockquote{font-size:14px;line-height:1.75;color:rgba(255,255,255,.8);font-style:italic;flex:1;margin-bottom:14px;}
+.test-author{border-top:1px solid rgba(255,255,255,.08);padding-top:12px;font-size:12px;font-weight:600;color:rgba(255,255,255,.5);}
+@media(max-width:768px){.test-grid{grid-template-columns:1fr;max-width:480px;margin:0 auto;}}
+.cta-banner{background:linear-gradient(135deg,var(--dark),#2c2c2c);padding:64px 0;text-align:center;}
+.cta-banner h2{font-family:var(--heading);font-weight:400;font-size:32px;color:#fff;margin-bottom:10px;}
+.cta-banner p{color:rgba(255,255,255,.6);font-size:16px;margin-bottom:28px;}
+.cta-btns{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;}
+.footer{background:#111;padding:48px 0 28px;color:rgba(255,255,255,.5);font-size:13px;}
+.footer-inner{display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px;margin-bottom:36px;}
+.footer-brand img{height:36px;filter:brightness(0) invert(1);margin-bottom:12px;}
+.footer-brand p{max-width:280px;line-height:1.65;}
+.footer-col h5{font-family:var(--heading);font-weight:500;font-size:16px;color:#fff;margin-bottom:12px;}
+.footer-col a{display:block;margin-bottom:6px;transition:color .2s;}
+.footer-col a:hover{color:var(--primary);}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.06);padding-top:20px;font-size:11px;line-height:1.6;color:rgba(255,255,255,.3);}
+@media(max-width:768px){.footer-inner{grid-template-columns:1fr;gap:28px;}}
+[id]{scroll-margin-top:80px;}
+</style>
 </head>
 <body>
-  <nav class="nav">
-    <div class="container nav-inner">
-      <div class="logo">
-        <img src="https://theduneseasthampton.com/wp-content/uploads/2025/04/logo-light-large.png" alt="The Dunes East Hampton" onerror="this.style.display='none'">
-      </div>
-      <div class="nav-cta">
-        <a href="tel:8778185539">(877) 818-5539</a>
-        <button class="btn" onclick="scrollToQuiz()">Confidential Assessment</button>
-      </div>
-    </div>
-  </nav>
-
-  <section class="hero" id="top">
-    <div class="container">
-      <div>
-        <div class="eyebrow">Private Hamptons Estate</div>
-        <h1>Discreet, Luxury Addiction Recovery in East Hampton</h1>
-        <p>Answer a few confidential questions to understand the level of care that fits your needs. Our admissions team will guide you with privacy, dignity, and clinical excellence.</p>
-        <div class="hero-card">
-          <div class="tag">FREE / CONFIDENTIAL / 2-3 MIN</div>
-          <div style="margin-top:8px;">Receive a personalized recommendation for The Dunes residential, executive, or outpatient programs.</div>
-        </div>
-        <div class="hero-meta">
-          <div class="line"></div>
-          <div class="note">A secluded 17-acre estate designed for individuals and families who require discretion.</div>
-        </div>
-        <div style="margin-top:18px;">Speak to a counselor: <strong>(877) 818-5539</strong></div>
-      </div>
-      <div class="quiz-card" id="quiz-card">
-        <div class="eyebrow">Confidential Assessment</div>
-        <h3>Who is this assessment for?</h3>
-        <div class="option" onclick="startQuiz(0)"><span class="radio"></span>For me</div>
-        <div class="option" onclick="startQuiz(1)"><span class="radio"></span>For a loved one</div>
-        <div class="option" onclick="startQuiz(2)"><span class="radio"></span>For an executive or professional</div>
-        <div class="confidential">Confidential. Reviewed by admissions.</div>
-      </div>
-    </div>
-  </section>
-
-  <section class="trust-band">
-    <div class="container trust-row">
-      <div style="font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--neutral);font-family:var(--font-ui-wide);">Trusted &amp; Recognized</div>
-      <div class="trust-pill"><img src="https://theduneseasthampton.com/wp-content/uploads/2026/03/Legit-script.png" alt="LegitScript" onerror="imgFallback(this,'LegitScript')" loading="lazy" decoding="async"></div>
-      <div class="trust-pill"><img src="https://theduneseasthampton.com/wp-content/uploads/2017/10/oasas.png" alt="OASAS" onerror="imgFallback(this,'OASAS')" loading="lazy" decoding="async"></div>
-      <div class="trust-pill"><img src="https://theduneseasthampton.com/wp-content/uploads/2017/10/ehab2.png" alt="eHAB" onerror="imgFallback(this,'eHAB')" loading="lazy" decoding="async"></div>
-      <div class="trust-pill"><img src="https://theduneseasthampton.com/wp-content/uploads/2025/08/CBS.png" alt="CBS" onerror="imgFallback(this,'CBS')" loading="lazy" decoding="async"></div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container split">
-      <div>
-        <div class="kicker">The Estate</div>
-        <h2>A Private Estate Designed for Recovery</h2>
-        <p>Set on a secluded Hamptons property, The Dunes provides a restorative environment where privacy is protected and every element of care is intentional.</p>
-        <div class="list">
-          <div class="list-item"><span>01</span> Private bedrooms and serene common spaces</div>
-          <div class="list-item"><span>02</span> High staff-to-client ratio and tailored plans</div>
-          <div class="list-item"><span>03</span> Concierge-level admissions process</div>
-          <div class="list-item"><span>04</span> Family-centered clinical guidance</div>
-        </div>
-      </div>
-      <div class="image-frame">
-        <img src="https://theduneseasthampton.com/wp-content/uploads/2026/03/248A2319-HDR-1.webp" alt="The Dunes Estate" onerror="imgFallback(this,'Estate')" loading="lazy" decoding="async">
-      </div>
-    </div>
-  </section>
-
-  <section class="section light">
-    <div class="container gallery">
-      <div class="image-frame">
-        <img src="https://theduneseasthampton.com/wp-content/uploads/2025/08/executive-rehab-in-New-York-1.webp" alt="Executive Living" onerror="imgFallback(this,'Executive')" loading="lazy" decoding="async">
-      </div>
-      <div class="stack">
-        <div class="image-frame">
-          <img src="https://theduneseasthampton.com/wp-content/uploads/2026/02/Substance-Abuse-Treatment-content-02-desktop.webp" alt="Wellness" onerror="imgFallback(this,'Wellness')" loading="lazy" decoding="async">
-        </div>
-        <div>
-          <div class="kicker">Executive Program</div>
-          <h2 style="font-size:30px;margin-top:8px;">Discretion for High-Profile Clients</h2>
-          <p>For professionals who require privacy, we provide a structured program that respects real-world responsibilities while maintaining clinical rigor.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container split">
-      <div>
-        <div class="kicker">Clinical + Holistic</div>
-        <h2>Integrative Care That Addresses the Root</h2>
-        <p>We combine evidence-based therapy with restorative wellness practices to help resolve the underlying causes of addiction and build sustainable recovery.</p>
-        <div class="list">
-          <div class="list-item"><span>01</span> Trauma-informed therapy and clinical guidance</div>
-          <div class="list-item"><span>02</span> Syndrome Model of Addiction</div>
-          <div class="list-item"><span>03</span> Mind-body wellness and restorative practices</div>
-          <div class="list-item"><span>04</span> Long-term aftercare planning</div>
-        </div>
-      </div>
-      <div class="image-frame">
-        <img src="https://theduneseasthampton.com/wp-content/uploads/2026/02/Substance-Abuse-Treatment-content-03-desktop.webp" alt="Holistic" onerror="imgFallback(this,'Holistic')" loading="lazy" decoding="async">
-      </div>
-    </div>
-  </section>
-
-  <section class="section light">
-    <div class="container">
-      <div class="kicker">Programs</div>
-      <h2>Programs Built for Lasting Change</h2>
-      <div class="programs">
-        <div class="block">
-          <h3 style="margin-top:0;font-family:var(--font-heading);">Residential Treatment</h3>
-          <p>Immersive, individualized care in a serene residential environment.</p>
-        </div>
-        <div class="block">
-          <h3 style="margin-top:0;font-family:var(--font-heading);">90-Day Program</h3>
-          <p>Research-supported duration for deeper recovery work and stability.</p>
-        </div>
-        <div class="block">
-          <h3 style="margin-top:0;font-family:var(--font-heading);">Outpatient Options</h3>
-          <p>Structured treatment with flexibility for real-life responsibilities.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="cta-banner">
-    <div class="container" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px;">
-      <div style="font-size:22px;font-family:var(--font-heading);">Ready for a confidential recommendation?</div>
-      <div style="display:flex;gap:12px;flex-wrap:wrap;">
-        <button class="btn" onclick="scrollToQuiz()">Take the Assessment</button>
-        <a class="btn" style="background:#fff;color:#111;" href="tel:8778185539">Call (877) 818-5539</a>
-      </div>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <div class="container">
-      <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;">
-        <div>
-          <strong>The Dunes East Hampton</strong><br>
-          15 Lohan Lane, Southampton, NY 11968<br>
-          (877) 818-5539
-        </div>
-        <div>Confidential admissions. Individual results may vary.</div>
-      </div>
-    </div>
-  </footer>
-
-  <div class="modal" id="quiz-modal">
-    <div class="modal-card">
-      <div class="progress"><div class="progress-fill" id="progress-fill"></div></div>
-      <div class="modal-question" id="modal-question"></div>
-      <div class="modal-options" id="modal-options"></div>
-      <div class="confidential">Confidential. This assessment does not replace medical advice.</div>
-    </div>
-  </div>
-
-  <div class="loading" id="loading">
-    <img src="https://theduneseasthampton.com/wp-content/uploads/2025/04/logo-light-large.png" alt="The Dunes" onerror="imgFallback(this,'The Dunes')">
-    <div class="loading-bar"><span id="loading-bar"></span></div>
-    <div id="loading-text">Reviewing responses...</div>
-  </div>
-
-  <script>
-    const brand = {
-      name: "The Dunes East Hampton",
-      phone: "877-818-5539",
-      phoneLink: "tel:8778185539",
-      colors: {
-        primary: "#917130",
-        primaryDark: "#003366",
-        accent: "#0AC92F",
-        dark: "#2A2A2A",
-        body: "#2A2A2A",
-        muted: "#757575",
-        light: "#E9E9E9",
-        white: "#FFFFFF"
-      },
-      logo: "https://theduneseasthampton.com/wp-content/uploads/2025/04/logo-light-large.png",
-      heroImage: "https://theduneseasthampton.com/wp-content/uploads/2026/03/248A2319-HDR-1.webp",
-      facilityImages: [
-        "https://theduneseasthampton.com/wp-content/uploads/2026/03/248A2319-HDR-1.webp",
-        "https://theduneseasthampton.com/wp-content/uploads/2026/02/Substance-Abuse-Treatment-content-02-desktop.webp",
-        "https://theduneseasthampton.com/wp-content/uploads/2025/08/executive-rehab-in-New-York-1.webp"
-      ]
-    };
-
-    const quiz = [
-      { key: "who", q: "Who is this assessment for?", options: [
-        {t:"For me", score:2},
-        {t:"For a loved one", score:2},
-        {t:"For an executive or professional", score:1}
-      ]},
-      { key: "substance", q: "Which concern best describes the situation?", options: [
-        {t:"Alcohol use", score:2},
-        {t:"Prescription medications", score:3},
-        {t:"Illicit substances", score:3},
-        {t:"Multiple substances", score:3}
-      ]},
-      { key: "duration", q: "How long has this been affecting daily life?", options: [
-        {t:"Less than 6 months", score:1},
-        {t:"6-24 months", score:2},
-        {t:"2-5 years", score:3},
-        {t:"5+ years", score:3}
-      ]},
-      { key: "impact", q: "Which areas feel most impacted right now?", options: [
-        {t:"Health or mental health", score:3},
-        {t:"Work and responsibilities", score:2},
-        {t:"Family and relationships", score:2},
-        {t:"All of the above", score:3}
-      ]},
-      { key: "urgency", q: "How urgent does getting help feel?", options: [
-        {t:"Immediate", score:3},
-        {t:"Soon (weeks)", score:2},
-        {t:"Within a few months", score:1}
-      ]},
-      { type:"info", text:"Many people delay care because of privacy concerns. There is a discreet, compassionate path forward." },
-      { key: "previous", q: "Has treatment been attempted before?", options: [
-        {t:"No, first time", score:1},
-        {t:"Yes, outpatient", score:2},
-        {t:"Yes, residential", score:2}
-      ]},
-      { key: "privacy", q: "How important is privacy and discretion?", options: [
-        {t:"Absolutely critical", score:2},
-        {t:"Important", score:1},
-        {t:"Not a major concern", score:0}
-      ]},
-      { key: "mental", q: "Are mental health concerns also present?", options: [
-        {t:"Yes", score:2},
-        {t:"Not sure", score:1},
-        {t:"No", score:0}
-      ]},
-      { key: "level", q: "Which level of care feels most appropriate?", options: [
-        {t:"Residential", score:3},
-        {t:"Outpatient", score:1},
-        {t:"Not sure", score:1}
-      ]},
-      { key: "insurance", q: "Do you plan to use insurance?", options: [
-        {t:"Yes", score:0},
-        {t:"No", score:0},
-        {t:"Not sure", score:0}
-      ]},
-      { type:"commit", text:"Are you ready to take a confidential next step?" }
-    ];
-
-    let answers = [];
-    let score = 0;
-    let stepIndex = 0;
-
-    const modal = document.getElementById('quiz-modal');
-    const modalQuestion = document.getElementById('modal-question');
-    const modalOptions = document.getElementById('modal-options');
-    const progressFill = document.getElementById('progress-fill');
-
-    function scrollToQuiz(){
-      document.getElementById('quiz-card').scrollIntoView({behavior:'smooth'});
-    }
-
-    function startQuiz(heroOptionIndex){
-      answers = [];
-      score = 0;
-      stepIndex = 0;
-      const q0 = quiz[0];
-      const opt = q0.options[heroOptionIndex];
-      answers.push({key:q0.key, question:q0.q, answer:opt.t});
-      score += opt.score;
-      stepIndex = 1;
-      modal.classList.add('active');
-      renderStep();
-    }
-
-    function renderStep(){
-      const totalSteps = quiz.length - 1;
-      const progress = Math.min(100, Math.round((stepIndex / totalSteps) * 100));
-      progressFill.style.width = progress + "%";
-
-      const step = quiz[stepIndex];
-      modalOptions.innerHTML = '';
-      if (!step) return;
-
-      if (step.type === 'info'){
-        modalQuestion.textContent = step.text;
-        const btn = document.createElement('button');
-        btn.className = 'btn';
-        btn.textContent = 'Continue';
-        btn.onclick = () => { stepIndex++; renderStep(); };
-        modalOptions.appendChild(btn);
-        return;
-      }
-
-      if (step.type === 'commit'){
-        modalQuestion.textContent = step.text;
-        ['Yes, I am ready','I want to learn more','Not sure yet'].forEach((t)=>{
-          const div = document.createElement('div');
-          div.className = 'option';
-          div.innerHTML = '<span class="radio"></span>' + t;
-          div.onclick = () => {
-            answers.push({key:'commit', question:step.text, answer:t});
-            stepIndex++;
-            showLeadCapture();
-          };
-          modalOptions.appendChild(div);
-        });
-        return;
-      }
-
-      modalQuestion.textContent = step.q;
-      step.options.forEach((opt)=>{
-        const div = document.createElement('div');
-        div.className = 'option';
-        div.innerHTML = '<span class="radio"></span>' + opt.t;
-        div.onclick = () => {
-          answers.push({key:step.key, question:step.q, answer:opt.t});
-          score += opt.score;
-          stepIndex++;
-          if (stepIndex < quiz.length){
-            setTimeout(renderStep, 200);
-          } else {
-            showLeadCapture();
-          }
-        };
-        modalOptions.appendChild(div);
-      });
-    }
-
-    function showLeadCapture(){
-      modalQuestion.textContent = "Almost there - where should we send your results?";
-      modalOptions.innerHTML = `
-        <div style="display:grid;gap:10px;">
-          <input id="lead-name" placeholder="Full Name" style="padding:12px;border:1px solid #ddd;border-radius:8px;" />
-          <input id="lead-email" placeholder="Email" style="padding:12px;border:1px solid #ddd;border-radius:8px;" />
-          <input id="lead-phone" placeholder="Phone (optional)" style="padding:12px;border:1px solid #ddd;border-radius:8px;" />
-          <button class="btn" onclick="submitLead()">Get My Results</button>
-        </div>
-      `;
-    }
-
-    function submitLead(){
-      const name = document.getElementById('lead-name').value.trim();
-      const email = document.getElementById('lead-email').value.trim();
-      const phone = document.getElementById('lead-phone').value.trim();
-      if (!name || !email){
-        alert('Please enter your name and email.');
-        return;
-      }
-      const lead = {name, email, phone};
-      modal.classList.remove('active');
-      startLoading(lead);
-    }
-
-    function startLoading(lead){
-      const loading = document.getElementById('loading');
-      const bar = document.getElementById('loading-bar');
-      const text = document.getElementById('loading-text');
-      const messages = [
-        "Reviewing responses...",
-        "Analyzing severity indicators...",
-        "Matching to programs...",
-        "Evaluating care level...",
-        "Preparing your assessment..."
-      ];
-      let i = 0;
-      loading.classList.add('active');
-      const msgInterval = setInterval(()=>{ text.textContent = messages[i % messages.length]; i++; }, 1200);
-      let start = Date.now();
-      const duration = 6000;
-      const timer = setInterval(()=>{
-        const pct = Math.min(100, ((Date.now()-start)/duration)*100);
-        bar.style.width = pct + '%';
-        if (pct >= 100){
-          clearInterval(timer);
-          clearInterval(msgInterval);
-          loading.classList.remove('active');
-          showResults(lead);
-        }
-      }, 50);
-    }
-
-    function showResults(lead){
-      const tier = score >= 20 ? 'HOT' : (score >= 13 ? 'WARM' : 'COLD');
-      document.body.innerHTML = buildResultsPage(tier, answers, score, lead);
-    }
-
-    function buildResultsPage(tier, answers, score, lead){
-      const c = brand.colors;
-      const headline = tier === 'HOT' ? 'Immediate Action Recommended' : tier === 'WARM' ? 'A Clear Path Forward' : 'You Are Taking the Right First Step';
-      const primaryCta = tier === 'HOT' ? 'Call Now for a Private Consultation' : tier === 'WARM' ? 'Schedule a Private Assessment Call' : 'Download the Confidential Guide';
-      const secondaryCta = tier === 'HOT' ? 'Verify Insurance' : tier === 'WARM' ? 'Explore Programs' : 'Speak with Admissions';
-
-      const summaryRows = answers.slice(0,6).map(a=>`<div style="display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid ${c.light};"><div>• ${a.question}</div><div style="font-weight:600;">${a.answer}</div></div>`).join('');
-
-      return `
-      <div style="font-family:Zalando Sans;color:${c.body};">
-        <div style="background:${c.dark};color:white;padding:18px 6%;display:flex;justify-content:space-between;align-items:center;">
-          <img src="${brand.logo}" style="height:40px;" onerror="this.style.display='none'" />
-          <a style="color:white;text-decoration:none;font-weight:600;" href="${brand.phoneLink}">${brand.phone}</a>
-        </div>
-        <div style="background:${c.primary};color:white;padding:50px 6%;">
-          <div style="font-family:Cinzel;font-size:34px;">${headline}</div>
-          <div style="margin-top:10px;font-size:18px;max-width:720px;">Based on your responses, a confidential conversation can clarify the safest and most effective next step.</div>
-        </div>
-        <div style="margin:-30px 6% 30px;background:${c.light};border-left:6px solid ${c.accent};padding:20px;box-shadow:0 10px 30px rgba(0,0,0,.08);">
-          <div style="font-weight:700;margin-bottom:10px;">Your Profile Summary</div>
-          ${summaryRows}
-        </div>
-        <div style="padding:10px 6% 40px;display:grid;grid-template-columns:repeat(4,1fr);gap:12px;">
-          <div style="background:#fff;padding:16px;border-radius:10px;border:1px solid ${c.light};text-align:center;">Private Hamptons Estate</div>
-          <div style="background:#fff;padding:16px;border-radius:10px;border:1px solid ${c.light};text-align:center;">Executive Program</div>
-          <div style="background:#fff;padding:16px;border-radius:10px;border:1px solid ${c.light};text-align:center;">Clinical + Holistic</div>
-          <div style="background:#fff;padding:16px;border-radius:10px;border:1px solid ${c.light};text-align:center;">Discreet Admissions</div>
-        </div>
-        <div style="background:${c.light};padding:40px 6%;display:grid;grid-template-columns:1.2fr .8fr;gap:20px;align-items:center;">
-          <div>
-            <div style="font-family:Cinzel;font-size:26px;margin-bottom:10px;">Why The Dunes is Different</div>
-            <table style="width:100%;border-collapse:collapse;">
-              <tr style="background:${c.primary};color:#fff;"><th style="padding:10px;text-align:left;">Most Programs</th><th style="padding:10px;text-align:left;">The Dunes</th></tr>
-              <tr><td style="padding:8px;color:${c.muted};">Standardized care</td><td style="padding:8px;color:${c.primary};font-weight:600;">Individualized plans</td></tr>
-              <tr style="background:#f6f6f6;"><td style="padding:8px;color:${c.muted};">Limited privacy</td><td style="padding:8px;color:${c.primary};font-weight:600;">Discreet estate setting</td></tr>
-              <tr><td style="padding:8px;color:${c.muted};">Short term focus</td><td style="padding:8px;color:${c.primary};font-weight:600;">Long term recovery support</td></tr>
-            </table>
-          </div>
-          <img src="${brand.facilityImages[2]}" style="width:100%;border-radius:12px;" onerror="this.replaceWith(fallbackBlock('Facility Photo', '${c.dark}'))" />
-        </div>
-        <div style="padding:50px 6%;text-align:center;">
-          <div style="font-family:Cinzel;font-size:28px;">${tier === 'HOT' ? `We have your details, ${lead.name}.` : `We have prepared your next steps, ${lead.name}.`}</div>
-          <div style="margin:10px auto 20px;max-width:700px;">${tier === 'COLD' ? 'You will receive a confidential guide and options to explore.' : 'A private call will help confirm the level of care and timing that fits your needs.'}</div>
-          <div style="display:flex;justify-content:center;gap:12px;flex-wrap:wrap;">
-            <a href="${brand.phoneLink}" style="background:${c.accent};color:#fff;padding:14px 22px;border-radius:10px;text-decoration:none;font-weight:700;">${primaryCta}</a>
-            <a href="https://theduneseasthampton.com/" style="background:${c.primary};color:#fff;padding:14px 22px;border-radius:10px;text-decoration:none;font-weight:700;">${secondaryCta}</a>
-          </div>
-        </div>
-        <div style="background:#111;color:#bbb;padding:30px 6%;font-size:12px;">
-          The Dunes East Hampton • 15 Lohan Lane, Southampton, NY 11968 • ${brand.phone}
-        </div>
-      </div>`;
-    }
-
-    function imgFallback(img, label){
-      img.onerror = null;
-      const div = document.createElement('div');
-      div.style.background = brand.colors.dark;
-      div.style.color = '#fff';
-      div.style.display = 'flex';
-      div.style.alignItems = 'center';
-      div.style.justifyContent = 'center';
-      div.style.height = '100%';
-      div.style.minHeight = '120px';
-      div.textContent = label;
-      img.replaceWith(div);
-    }
-
-    function fallbackBlock(label, color){
-      const d = document.createElement('div');
-      d.style.background = color;
-      d.style.color = '#fff';
-      d.style.display = 'flex';
-      d.style.alignItems = 'center';
-      d.style.justifyContent = 'center';
-      d.style.height = '240px';
-      d.textContent = label;
-      return d;
-    }
-  </script>
+<nav class="nav" id="navbar"><div class="nav-inner"><a href="https://theduneseasthampton.com/" class="nav-logo"><img src="https://theduneseasthampton.com/wp-content/uploads/2025/03/logo-dark-large.png" alt="The Dunes East Hampton"></a><div class="nav-right"><a href="tel:+18778185539" class="nav-phone"><span>(877) 818-5539</span></a><button class="btn btn-primary nav-cta" onclick="document.getElementById('quiz-card').scrollIntoView({behavior:'smooth',block:'center'})">Confidential Assessment</button></div></div></nav>
+<section class="hero"><div class="hero-bg"><img src="https://theduneseasthampton.com/wp-content/uploads/2026/03/248A2319-HDR-1.webp" alt="The Dunes East Hampton Estate" loading="eager" onerror="this.parentNode.style.background='#1A1A1A';this.style.display='none';"></div><div class="hero-overlay"></div><div class="hero-split"><div class="hero-left"><h1>The Path to Recovery <em>Feels Like Home</em></h1><p class="hero-sub">A private 12-client retreat in the Hamptons built on elite clinical care, absolute discretion, and the flexibility to work and stay connected.</p><div class="hero-bubble"><div class="tag">Confidential &middot; Free &middot; 2 Minutes</div><p>Take a brief assessment to receive a personalised recommendation from The Dunes admissions team. No phone call required.</p><div class="small">Trusted by discerning families seeking privacy and clinical excellence.</div></div><div class="hero-badges"><div class="hero-badge">Private 17-Acre Estate</div><div class="hero-badge">12 Clients Maximum</div><div class="hero-badge">Dual Diagnosis</div><div class="hero-badge">Executive Program</div></div><a href="tel:+18778185539" class="hero-phone">(877) 818-5539</a></div><div class="qcard" id="quiz-card"><div class="qcard-eyebrow">Confidential Assessment</div><h3>Who is this assessment for?</h3><p class="qcard-sub">2 minutes. Private. No obligation.</p><div class="qcard-options"><div class="qopt" onclick="PQ.start(this,0)"><span class="dot"></span>For myself</div><div class="qopt" onclick="PQ.start(this,1)"><span class="dot"></span>For a loved one</div><div class="qopt" onclick="PQ.start(this,2)"><span class="dot"></span>For a client or employee</div></div><div class="qcard-lock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>Your answers are completely confidential</div></div></div></section>
+<div class="modal" id="modal"><div class="modal-card"><div class="modal-progress"><div class="modal-bar" id="mBar"></div></div><div class="modal-body" id="mBody"></div></div></div>
+<div class="ld-screen" id="ldScreen"><img src="https://theduneseasthampton.com/wp-content/uploads/2025/03/logo-dark-large.png" alt="The Dunes" onerror="this.style.display='none';"><div class="ld-wrap"><div class="ld-bar"><div class="ld-fill" id="ldFill"></div></div><div class="ld-msg" id="ldMsg">Reviewing your responses&hellip;</div></div></div>
+<div id="pageContent">
+<div class="trust-bar"><div class="container"><div class="trust-inner"><img src="https://theduneseasthampton.com/wp-content/uploads/2026/03/Legit-script.png" alt="LegitScript Certified" onerror="this.style.display='none';"><div class="trust-stat"><span>Founded</span>Established Practice</div><div class="trust-stat"><span>Capacity</span>12 Clients Max</div><div class="trust-stat"><span>Setting</span>17-Acre Estate</div><div class="trust-stat"><span>Model</span>3:1 Staff Ratio</div></div></div></div>
+<section class="section section-light"><div class="container"><div class="s-header"><p class="s-eyebrow">You are not alone</p><h2 class="s-title">If Any of This Feels Familiar</h2><p class="s-sub">Many of the people who come to The Dunes share the same quiet struggle. Recognising it is the first step.</p></div><div class="prob-grid"><div class="prob-card"><h4>Holding Everything Together While It Falls Apart</h4><p>Outwardly successful, but addiction is quietly eroding work performance, health, and relationships. The pressure to maintain appearances makes asking for help feel impossible.</p></div><div class="prob-card"><h4>Previous Treatment Didn't Create Lasting Change</h4><p>Past programmes may have helped temporarily but didn't address the full picture. High-volume facilities, impersonal care, and a lack of privacy left you feeling like a number.</p></div><div class="prob-card"><h4>Needing True Privacy and Discretion</h4><p>For professionals, executives, and public figures, confidentiality isn't optional. Recovery needs to happen in an environment that respects your responsibilities and protects your reputation.</p></div></div></div></section>
+<section class="section"><div class="container"><div class="s-header"><p class="s-eyebrow">The estate</p><h2 class="s-title">A Private Retreat in the Hamptons</h2><p class="s-sub">17 acres of serene grounds where comfort, connection, and personalised care come together.</p></div><div class="fac-grid"><div class="fac-item lg"><img src="https://theduneseasthampton.com/wp-content/uploads/2026/02/Substance-Abuse-Treatment-content-01-desktop.webp" alt="The Dunes estate" loading="lazy" onerror="this.style.display='none';this.parentNode.style.background='#3A3A3A';"><div class="fac-cap">Private Hamptons Estate</div></div><div class="fac-item"><img src="https://theduneseasthampton.com/wp-content/uploads/2026/02/Substance-Abuse-Treatment-content-02-desktop.webp" alt="Therapy" loading="lazy" onerror="this.style.display='none';this.parentNode.style.background='#3A3A3A';"><div class="fac-cap">Clinical Spaces</div></div><div class="fac-item"><img src="https://theduneseasthampton.com/wp-content/uploads/2026/02/Substance-Abuse-Treatment-content-03-desktop.webp" alt="Wellness" loading="lazy" onerror="this.style.display='none';this.parentNode.style.background='#3A3A3A';"><div class="fac-cap">Wellness &amp; Holistic</div></div><div class="fac-item"><img src="https://theduneseasthampton.com/wp-content/uploads/2026/02/Substance-Abuse-Treatment-content-04-desktop.webp" alt="Grounds" loading="lazy" onerror="this.style.display='none';this.parentNode.style.background='#3A3A3A';"><div class="fac-cap">Restorative Grounds</div></div><div class="fac-item"><img src="https://theduneseasthampton.com/wp-content/uploads/2026/03/248A2319-HDR-1.webp" alt="Exterior" loading="lazy" onerror="this.style.display='none';this.parentNode.style.background='#3A3A3A';"><div class="fac-cap">Estate Exterior</div></div></div></div></section>
+<section class="section section-light"><div class="container"><div class="s-header"><p class="s-eyebrow">Our approach</p><h2 class="s-title">Clinical Rigour Meets Holistic Healing</h2><p class="s-sub">Grounded in the Addiction Syndrome Model, our treatment addresses the full spectrum of recovery.</p></div><div class="approach-grid"><div class="approach-col"><h4>Clinical Excellence</h4><div class="approach-item"><svg viewBox="0 0 24 24" fill="none" stroke="#8C7045" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Board-certified addiction psychiatrist</div><div class="approach-item"><svg viewBox="0 0 24 24" fill="none" stroke="#8C7045" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Individualised treatment plans</div><div class="approach-item"><svg viewBox="0 0 24 24" fill="none" stroke="#8C7045" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>3:1 staff-to-client ratio</div><div class="approach-item"><svg viewBox="0 0 24 24" fill="none" stroke="#8C7045" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Dual diagnosis treatment</div><div class="approach-item"><svg viewBox="0 0 24 24" fill="none" stroke="#8C7045" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Trauma-informed care (EMDR, CBT)</div><div class="approach-item"><svg viewBox="0 0 24 24" fill="none" stroke="#8C7045" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Medication management</div></div><div class="approach-col"><h4>Holistic &amp; Executive</h4><div class="approach-item"><svg viewBox="0 0 24 24" fill="none" stroke="#8C7045" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Private office access for remote work</div><div class="approach-item"><svg viewBox="0 0 24 24" fill="none" stroke="#8C7045" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Yoga, meditation, breathwork</div><div class="approach-item"><svg viewBox="0 0 24 24" fill="none" stroke="#8C7045" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Nutritional counselling &amp; chef meals</div><div class="approach-item"><svg viewBox="0 0 24 24" fill="none" stroke="#8C7045" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Equine therapy</div><div class="approach-item"><svg viewBox="0 0 24 24" fill="none" stroke="#8C7045" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Art &amp; music therapy</div><div class="approach-item"><svg viewBox="0 0 24 24" fill="none" stroke="#8C7045" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Long-term alumni &amp; aftercare support</div></div></div></div></section>
+<section class="section"><div class="container"><div class="s-header"><p class="s-eyebrow">The difference</p><h2 class="s-title">Why The Dunes</h2></div><div class="why-grid"><div class="why-card"><h4>12 Clients, Maximum</h4><p>Intimate by design. Every treatment plan, every conversation, every moment of care is truly individualised.</p></div><div class="why-card"><h4>Executive-Level Discretion</h4><p>Complete privacy on a secluded 17-acre Hamptons estate. Work remotely. Maintain your responsibilities.</p></div><div class="why-card"><h4>Dual Diagnosis Specialists</h4><p>Addiction and mental health treated together by a board-certified psychiatrist and licensed clinical team.</p></div><div class="why-card"><h4>3:1 Staff-to-Client Ratio</h4><p>More attention than any large-volume facility can provide. You are never overlooked here.</p></div><div class="why-card"><h4>Hamptons Setting</h4><p>Restorative natural surroundings that feel like home, not an institution. Recovery in comfort and beauty.</p></div><div class="why-card"><h4>Alumni for Life</h4><p>Long-term recovery support, ongoing connection, and a community that extends well beyond discharge.</p></div></div></div></section>
+<section class="test-section"><div class="container"><div class="s-header" style="margin-bottom:40px;"><p class="s-eyebrow" style="color:rgba(255,255,255,.4);">Client experiences</p><h2 class="s-title" style="color:#fff;">What Clients Say</h2></div><div class="test-grid"><div class="test-card"><blockquote>&ldquo;From day one, I felt cared for with genuine compassion and absolute discretion. The individualised attention I received helped me rebuild my life in a way that finally feels sustainable. The Dunes truly elevates what recovery can be.&rdquo;</blockquote><div class="test-author">Residential Program Patient, 2025</div></div><div class="test-card"><blockquote>&ldquo;The people, the surrounding, the program, the accommodations, all get 10 out of 10.&rdquo;</blockquote><div class="test-author">&mdash; M.C.</div></div><div class="test-card"><blockquote>&ldquo;My experience at this facility saved my life. Thanks for giving me my life back. I&rsquo;m so happy!&rdquo;</blockquote><div class="test-author">&mdash; K.L. &amp; D.M.</div></div></div><p style="text-align:center;font-size:11px;color:rgba(255,255,255,.3);margin-top:16px;">Individual results may vary.</p></div></section>
+<section class="cta-banner"><div class="container"><h2>Ready to Take the Next Step?</h2><p>A confidential conversation is all it takes to understand your options.</p><div class="cta-btns"><button class="btn btn-primary" onclick="document.getElementById('quiz-card').scrollIntoView({behavior:'smooth',block:'center'})">Take the Assessment</button><a href="tel:+18778185539" class="btn btn-outline">Call (877) 818-5539</a></div></div></section>
+<footer class="footer"><div class="container"><div class="footer-inner"><div class="footer-brand"><img src="https://theduneseasthampton.com/wp-content/uploads/2025/03/logo-dark-large.png" alt="The Dunes East Hampton"><p>A private, resort-style setting where comfort, connection, and personalised care come together to support your recovery.</p></div><div class="footer-col"><h5>Contact</h5><a href="tel:+18778185539">(877) 818-5539</a><a href="https://theduneseasthampton.com/contact/" target="_blank">Contact Admissions</a><a>201 Fort Pond Blvd<br>East Hampton, NY 11937</a></div><div class="footer-col"><h5>Programs</h5><a href="https://theduneseasthampton.com/substance-abuse-treatment/" target="_blank">Residential Treatment</a><a href="https://theduneseasthampton.com/" target="_blank">Executive Program</a><a href="https://theduneseasthampton.com/" target="_blank">Dual Diagnosis</a><a href="https://theduneseasthampton.com/" target="_blank">Aftercare</a></div></div><div class="footer-bottom">This assessment is for informational purposes only and does not constitute medical advice, diagnosis, or treatment. If you are experiencing a medical emergency, call 911. SAMHSA: 1-800-662-4357 (free, confidential, 24/7). Individual results may vary. <a href="https://theduneseasthampton.com/privacy-policy/" target="_blank" style="color:#8C7045;">Privacy Policy</a> &middot; &copy; 2026 The Dunes East Hampton.</div></div></footer>
+</div>
+<script>
+(function(){
+'use strict';
+var PQ=window.PQ={};
+var C={p:'#8C7045',pd:'#5C4A2E',a:'#B8975A',d:'#1A1A1A',b:'#3A3A3A',m:'#999',l:'#F6F5F2',w:'#fff'};
+var steps=[
+{type:'ph'},
+{type:'q',id:2,t:'Which substance is most concerning right now?',opts:[{l:'Alcohol',s:2},{l:'Opioids or prescription painkillers',s:3},{l:'Cocaine or stimulants',s:2},{l:'Benzodiazepines',s:3},{l:'Multiple substances',s:3}]},
+{type:'q',id:3,t:'How long has this been affecting daily life?',opts:[{l:'Less than 6 months',s:1},{l:'6 months to 1 year',s:1},{l:'1\u20133 years',s:2},{l:'3\u20135 years',s:3},{l:'More than 5 years',s:3}]},
+{type:'q',id:4,t:'How often is use happening right now?',opts:[{l:'Multiple times daily',s:3},{l:'Daily',s:3},{l:'Several times a week',s:2},{l:'Weekly or less',s:1}]},
+{type:'q',id:5,t:'Are withdrawal symptoms present when trying to stop?',opts:[{l:'Severe \u2014 shaking, sweating, physical distress',s:3},{l:'Moderate \u2014 cravings, mood changes',s:2},{l:'Mild \u2014 some cravings or irritability',s:1},{l:'None noticed yet',s:0}]},
+{type:'info',h:'You\u2019re not alone.',p:'Many people delay getting help because of privacy concerns. There is a discreet, compassionate path forward.',sm:'Your answers remain 100% confidential.'},
+{type:'q',id:7,t:'Are mental health concerns also present?',opts:[{l:'Yes \u2014 anxiety, depression, or both',s:3},{l:'Yes \u2014 trauma or PTSD',s:3},{l:'Possibly, but not formally diagnosed',s:2},{l:'No',s:0}]},
+{type:'q',id:8,t:'Has treatment been tried before?',opts:[{l:'Yes, multiple programmes',s:3},{l:'Yes, once',s:2},{l:'No \u2014 this would be the first time',s:1}]},
+{type:'q',id:9,t:'How important is privacy and discretion?',opts:[{l:'Absolutely critical \u2014 professional reputation at stake',s:2},{l:'Very important',s:1},{l:'Important, but flexible',s:0}]},
+{type:'q',id:10,t:'Which level of care feels most appropriate?',opts:[{l:'Residential \u2014 live at the facility',s:2},{l:'Structured outpatient',s:1},{l:'Not sure yet',s:0}]},
+{type:'q',id:11,t:'How soon is the goal to begin?',opts:[{l:'Immediately \u2014 within days',s:3},{l:'Within 1\u20132 weeks',s:2},{l:'Within 1\u20133 months',s:1},{l:'Just researching for now',s:0}]},
+{type:'q',id:12,t:'How do you plan to cover treatment?',opts:[{l:'Private insurance',s:0},{l:'Private pay',s:0},{l:'Unsure about coverage',s:0},{l:'Not sure yet',s:0}]},
+{type:'commit',h:'One last thing.',p:'Recovery is possible. People who receive individualised care in a private setting consistently achieve better long-term outcomes.',q:'Are you ready to take a confidential next step?',opts:[{l:'Yes, I\u2019m ready',s:1},{l:'Yes, but I have concerns',s:1},{l:'I need more information',s:0}]}
+];
+var TOTAL=steps.length-1,cur=0,answers=[],score=0,lead={name:'',email:'',phone:''};
+var modal=document.getElementById('modal'),mBar=document.getElementById('mBar'),mBody=document.getElementById('mBody');
+PQ.start=function(el,i){el.classList.add('sel');var labels=['For myself','For a loved one','For a client or employee'];answers.push({id:1,l:labels[i],s:0});setTimeout(function(){document.body.classList.add('no-scroll');modal.classList.add('open');cur=1;render();},300);};
+function render(){var s=steps[cur],pct=Math.round((cur/TOTAL)*100);mBar.style.width=pct+'%';if(s.type==='q')renderQ(s);else if(s.type==='info')renderInfo(s);else if(s.type==='commit')renderCommit(s);}
+function renderQ(s){var n=getNum(),h='<div class="modal-fade"><div class="modal-step">Question '+n+' of 13</div><h3>'+s.t+'</h3><div class="modal-opts">';s.opts.forEach(function(o,i){h+='<div class="mopt" data-i="'+i+'" data-s="'+o.s+'" onclick="PQ.ans(this,'+cur+')"><span class="dot"></span>'+o.l+'</div>';});h+='</div><div class="modal-lock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>Confidential</div></div>';mBody.innerHTML=h;}
+function renderInfo(s){var h='<div class="modal-fade modal-info"><h3>'+s.h+'</h3><p>'+s.p+'</p><p class="small">'+s.sm+'</p><button class="btn btn-primary" onclick="PQ.next()">Continue</button></div>';mBody.innerHTML=h;setTimeout(function(){PQ.next();},2500);}
+function renderCommit(s){var h='<div class="modal-fade modal-info"><h3>'+s.h+'</h3><p>'+s.p+'</p><p class="small" style="margin-bottom:20px;">'+s.q+'</p><div class="modal-opts">';s.opts.forEach(function(o,i){h+='<div class="mopt" data-i="'+i+'" data-s="'+o.s+'" onclick="PQ.ans(this,'+cur+')"><span class="dot"></span>'+o.l+'</div>';});h+='</div></div>';mBody.innerHTML=h;}
+function getNum(){var n=1;for(var i=1;i<=cur;i++){if(steps[i].type==='q'||steps[i].type==='commit')n++;}return n;}
+PQ.ans=function(el,si){el.classList.add('sel');var s=steps[si],idx=parseInt(el.dataset.i),pts=parseInt(el.dataset.s);answers.push({id:s.id||'commit',l:s.opts[idx].l,s:pts});score+=pts;setTimeout(function(){cur++;if(cur<steps.length)render();else showLead();},300);};
+PQ.next=function(){cur++;if(cur<steps.length)render();else showLead();};
+function showLead(){mBar.style.width='100%';var h='<div class="modal-fade" style="text-align:center;"><h3 style="font-family:Cormorant Garamond,serif;font-size:24px;margin-bottom:6px;">Almost there \u2014 where should we send your results?</h3><p style="font-size:14px;color:#999;margin-bottom:22px;">Your personalised assessment will be ready in seconds.</p><input type="text" class="form-input" placeholder="Full Name" id="lcN"><input type="email" class="form-input" placeholder="Email Address" id="lcE"><input type="tel" class="form-input" placeholder="Phone (optional \u2014 for faster support)" id="lcP"><button class="btn btn-primary" style="width:100%;margin-top:4px;" onclick="PQ.submitLead()">See My Results</button><p style="font-size:11px;color:#bbb;margin-top:12px;">\ud83d\udd12 100% confidential. We never share your information.</p></div>';mBody.innerHTML=h;}
+PQ.submitLead=function(){var n=document.getElementById('lcN').value.trim(),e=document.getElementById('lcE').value.trim(),p=document.getElementById('lcP').value.trim();if(!n||!e){alert('Please enter your name and email.');return;}lead={name:n,email:e,phone:p};console.log('LEAD:',JSON.stringify({name:n,email:e,phone:p,score:score,answers:answers}));modal.classList.remove('open');document.body.classList.remove('no-scroll');startLoading();};
+function startLoading(){var ld=document.getElementById('ldScreen'),fill=document.getElementById('ldFill'),msg=document.getElementById('ldMsg');ld.classList.add('on');var msgs=['Reviewing your responses\u2026','Analysing severity indicators\u2026','Matching to programmes\u2026','Evaluating care level\u2026','Preparing your assessment\u2026'];var mi=0,prog=0;var mt=setInterval(function(){mi++;if(mi<msgs.length){msg.style.opacity='0';setTimeout(function(){msg.textContent=msgs[mi];msg.style.opacity='1';},200);}},1200);var bt=setInterval(function(){prog+=2;if(prog>100)prog=100;fill.style.width=prog+'%';},120);setTimeout(function(){clearInterval(mt);clearInterval(bt);fill.style.width='100%';setTimeout(function(){ld.classList.remove('on');showResults();},400);},6000);}
+function ga(id){for(var i=0;i<answers.length;i++){if(answers[i].id===id)return answers[i].l;}return '';}
+function showResults(){var tier=score>=20?'hot':score>=12?'warm':'cold';var sub=ga(2)||'Substance use',dur=ga(3)||'Not specified',wd=ga(5)||'Not specified',mh=ga(7)||'Not specified',prev=ga(8)||'Not specified',ready=ga(11)||'';var dual=mh.indexOf('Yes')===0||mh.indexOf('Possibly')===0;var prevT=prev.indexOf('Yes')===0;var ln=lead.name;
+var prof='<div style="background:'+C.l+';border-left:3px solid '+C.a+';border-radius:0 8px 8px 0;padding:24px 20px;max-width:540px;margin:0 auto;"><div style="font-family:Cormorant Garamond,serif;font-weight:500;font-size:18px;color:'+C.d+';margin-bottom:14px;">Your Assessment Profile</div>'+pr('Substance',sub)+pr('Duration',dur)+pr('Withdrawal',wd)+pr('Mental Health',mh)+pr('Prior Treatment',prev)+pr('Readiness',ready)+'</div>';
+var spb='<div style="background:#fff;padding:32px 24px;border-bottom:1px solid rgba(0,0,0,.05);"><div style="max-width:800px;margin:0 auto;display:flex;flex-wrap:wrap;justify-content:center;gap:32px;text-align:center;font-family:DM Sans,sans-serif;"><div><div style="font-size:10px;color:#999;letter-spacing:.1em;text-transform:uppercase;margin-bottom:2px;">SETTING</div><div style="font-weight:600;font-size:14px;color:#1A1A1A;">Private Hamptons Estate</div></div><div><div style="font-size:10px;color:#999;letter-spacing:.1em;text-transform:uppercase;margin-bottom:2px;">CAPACITY</div><div style="font-weight:600;font-size:14px;color:#1A1A1A;">12 Clients Max</div></div><div><div style="font-size:10px;color:#999;letter-spacing:.1em;text-transform:uppercase;margin-bottom:2px;">STAFF RATIO</div><div style="font-weight:600;font-size:14px;color:#1A1A1A;">3:1</div></div><div><div style="font-size:10px;color:#999;letter-spacing:.1em;text-transform:uppercase;margin-bottom:2px;">ACCREDITED</div><div style="font-weight:600;font-size:14px;color:#1A1A1A;">LegitScript Certified</div></div></div></div>';
+var cmp='<div style="background:'+C.l+';padding:72px 24px;"><div style="max-width:800px;margin:0 auto;"><h3 style="font-family:Cormorant Garamond,serif;font-weight:400;font-size:28px;text-align:center;color:#1A1A1A;margin-bottom:32px;">Why The Dunes Is Different</h3><table style="width:100%;border-collapse:collapse;font-family:DM Sans,sans-serif;font-size:13px;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.04);"><tr><th style="padding:14px 18px;text-align:left;background:#888;color:#fff;font-weight:600;">Most Programmes</th><th style="padding:14px 18px;text-align:left;background:#8C7045;color:#fff;font-weight:600;">The Dunes</th></tr>'+cr('50\u2013100+ clients at a time','Maximum 12 clients \u2014 ever')+cr('Generic, cookie-cutter plans','Fully individualised treatment')+cr('Institutional environment','Private Hamptons estate')+cr('Limited privacy','Executive-level discretion')+cr('Treatment ends at discharge','Alumni support for life')+'</table></div></div>';
+var tst='<div style="background:#1A1A1A;padding:56px 24px;text-align:center;color:#fff;"><blockquote style="font-family:Cormorant Garamond,serif;font-size:20px;font-style:italic;line-height:1.7;color:rgba(255,255,255,.85);max-width:640px;margin:0 auto 14px;">\u201cFrom day one, I felt cared for with genuine compassion and absolute discretion. The individualised attention helped me rebuild my life in a way that finally feels sustainable.\u201d</blockquote><cite style="font-style:normal;font-size:13px;font-weight:500;color:rgba(255,255,255,.45);">Residential Programme Patient, 2025</cite><div style="font-size:11px;color:rgba(255,255,255,.25);margin-top:10px;">Individual results may vary.</div></div>';
+var ins='<div style="background:#fff;padding:64px 24px;text-align:center;font-family:DM Sans,sans-serif;"><h3 style="font-family:Cormorant Garamond,serif;font-weight:400;font-size:26px;color:#1A1A1A;margin-bottom:8px;">Insurance &amp; Private Pay</h3><p style="font-size:15px;color:#3A3A3A;margin-bottom:24px;max-width:520px;margin-left:auto;margin-right:auto;">We work with most major insurance providers and offer private pay arrangements. A confidential call is all it takes to understand your options.</p><a href="tel:+18778185539" style="display:inline-flex;align-items:center;justify-content:center;background:#8C7045;color:#fff;font-family:DM Sans,sans-serif;font-weight:500;font-size:13px;letter-spacing:.1em;text-transform:uppercase;padding:14px 32px;border-radius:4px;text-decoration:none;">Call (877) 818-5539</a></div>';
+var ft='<div style="background:#111;padding:36px 24px;text-align:center;font-family:DM Sans,sans-serif;font-size:11px;color:rgba(255,255,255,.3);line-height:1.6;"><div style="margin-bottom:8px;">The Dunes East Hampton &middot; 201 Fort Pond Blvd, East Hampton, NY 11937 &middot; (877) 818-5539</div>This assessment is for informational purposes only and does not constitute medical advice. If experiencing a medical emergency, call 911. SAMHSA: 1-800-662-4357. Individual results may vary. <a href="https://theduneseasthampton.com/privacy-policy/" target="_blank" style="color:#B8975A;">Privacy Policy</a> &middot; \u00a9 2026 The Dunes East Hampton.</div>';
+var nav='<div style="background:#5C4A2E;padding:14px 24px;display:flex;align-items:center;justify-content:space-between;"><img src="https://theduneseasthampton.com/wp-content/uploads/2025/03/logo-dark-large.png" alt="The Dunes" style="max-width:120px;height:auto;filter:brightness(0) invert(1);" onerror="this.style.display=\'none\';"><a href="tel:+18778185539" style="color:#fff;font-family:DM Sans,sans-serif;font-weight:600;font-size:14px;text-decoration:none;">(877) 818-5539</a></div>';
+var heroSub='';if(tier==='hot'){heroSub='Your '+dur.toLowerCase()+' of '+sub.toLowerCase()+' use';if(wd.toLowerCase().indexOf('severe')>=0)heroSub+=' combined with severe withdrawal symptoms';else if(wd.toLowerCase().indexOf('moderate')>=0)heroSub+=' with moderate withdrawal symptoms';heroSub+=' indicates medically supervised care is strongly recommended.';if(dual)heroSub+=' Co-occurring mental health concerns make comprehensive treatment essential.';}else if(tier==='warm'){heroSub='';if(prevT)heroSub+='Previous treatment didn\u2019t create lasting change \u2014 The Dunes\u2019 approach is fundamentally different. ';heroSub+='Your '+sub.toLowerCase()+' concerns are valid, and your willingness to explore options takes real strength.';if(dual)heroSub+=' Our dual diagnosis programme treats addiction and mental health together.';}else{heroSub='Understanding your options is the beginning. There\u2019s no pressure \u2014 just information and a team that\u2019s here when you\u2019re ready.';}
+var heroH=tier==='hot'?'Immediate, Confidential Support Is Recommended':tier==='warm'?'You\u2019re Ready \u2014 Here\u2019s Your Path Forward':'You\u2019re Taking the Right First Step';
+var heroBg=tier==='cold'?'linear-gradient(135deg,#3d4a55,#556270)':'linear-gradient(135deg,#5C4A2E,#8C7045)';
+var heroHtml='<div style="background:'+heroBg+';padding:52px 24px 48px;color:#fff;text-align:center;">'+(tier==='hot'?'<div style="display:inline-flex;align-items:center;gap:6px;background:rgba(180,60,60,.2);border:1px solid rgba(180,60,60,.35);border-radius:4px;padding:7px 16px;font-size:12px;font-weight:600;color:#e8a0a0;margin-bottom:16px;">\u26a0 Medical supervision recommended</div>':'')+'<h1 style="font-family:Cormorant Garamond,serif;font-weight:400;font-size:32px;line-height:1.25;max-width:680px;margin:0 auto 12px;">'+heroH+'</h1><p style="font-size:15px;font-weight:300;line-height:1.65;color:rgba(255,255,255,.8);max-width:600px;margin:0 auto;">'+heroSub+'</p></div>';
+var ctaHtml='';if(tier==='hot'){ctaHtml='<div style="background:#fff;padding:56px 24px;text-align:center;font-family:DM Sans,sans-serif;"><div style="max-width:520px;margin:0 auto;">'+(ln?'<div style="background:#F6F5F2;border-radius:8px;padding:16px 20px;margin-bottom:20px;font-size:14px;color:#1A1A1A;"><span style="color:#8C7045;font-weight:600;">\u2713</span> We have your details, '+ln+'. Our admissions team will be in touch within the hour.</div>':'')+'<a href="tel:+18778185539" style="display:inline-flex;align-items:center;justify-content:center;gap:8px;background:#8C7045;color:#fff;font-family:DM Sans,sans-serif;font-weight:600;font-size:18px;padding:18px 44px;border-radius:4px;text-decoration:none;margin-bottom:10px;">Call Now: (877) 818-5539</a><p style="font-size:12px;color:#8C7045;font-weight:500;">Available 24/7 \u2014 Confidential \u2014 No obligation</p><div style="margin-top:32px;display:grid;grid-template-columns:repeat(4,1fr);gap:14px;text-align:center;">'+sb(1,'Call or we call you')+sb(2,'15-min assessment')+sb(3,'Options explained')+sb(4,'Admission in 48hrs')+'</div></div></div>';}else if(tier==='warm'){ctaHtml='<div style="background:#fff;padding:56px 24px;text-align:center;font-family:DM Sans,sans-serif;"><div style="max-width:520px;margin:0 auto;">'+(ln?'<div style="background:#F6F5F2;border-radius:8px;padding:16px 20px;margin-bottom:20px;font-size:14px;color:#1A1A1A;"><span style="color:#8C7045;font-weight:600;">\u2713</span> Thanks, '+ln+'. We\u2019ll be in touch soon.</div>':'')+'<h4 style="font-family:Cormorant Garamond,serif;font-weight:500;font-size:22px;margin-bottom:8px;color:#1A1A1A;">Schedule a Confidential Assessment Call</h4><p style="font-size:14px;color:#3A3A3A;margin-bottom:20px;">No obligation. No pressure. Just clarity about your options.</p><a href="tel:+18778185539" style="display:inline-flex;align-items:center;justify-content:center;background:#8C7045;color:#fff;font-family:DM Sans,sans-serif;font-weight:500;font-size:15px;padding:16px 40px;border-radius:4px;text-decoration:none;">(877) 818-5539</a></div></div>';}else{ctaHtml='<div style="background:#fff;padding:56px 24px;text-align:center;font-family:DM Sans,sans-serif;"><div style="max-width:560px;margin:0 auto;">'+(ln?'<div style="background:#F6F5F2;border-radius:8px;padding:16px 20px;margin-bottom:20px;font-size:14px;color:#1A1A1A;"><span style="color:#8C7045;font-weight:600;">\u2713</span> Thanks, '+ln+'. Your recovery guide is on its way.</div>':'')+'<h4 style="font-family:Cormorant Garamond,serif;font-weight:500;font-size:22px;margin-bottom:16px;color:#1A1A1A;">Understanding Your Options</h4><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:24px;">'+ec('Residential','Live at the estate. 24/7 care. Full clinical and holistic programme.')+ec('Outpatient','Structured support while living at home. Flexible scheduling.')+ec('Detox','Medically supervised withdrawal management in a private setting.')+'</div><div style="background:#F6F5F2;border-radius:8px;padding:20px;margin-bottom:20px;"><p style="font-size:14px;margin-bottom:4px;color:#1A1A1A;">SAMHSA National Helpline</p><a href="tel:18006624357" style="color:#1A1A1A;font-weight:700;font-size:20px;text-decoration:none;">1-800-662-4357</a><p style="font-size:11px;color:#999;margin-top:4px;">Free, confidential, 24/7</p></div><p style="font-size:14px;color:#3A3A3A;">When you\u2019re ready, call <a href="tel:+18778185539" style="color:#8C7045;font-weight:600;text-decoration:none;">(877) 818-5539</a>. We\u2019ll meet you where you are.</p></div></div>';}
+document.body.innerHTML='<div style="font-family:DM Sans,sans-serif;color:#3A3A3A;">'+nav+heroHtml+'<div style="max-width:560px;margin:-28px auto 0;padding:0 24px;position:relative;z-index:2;">'+prof+'</div>'+spb+ctaHtml+cmp+tst+ins+ft+'</div>';window.scrollTo(0,0);}
+function pr(label,val){return '<div style="display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.05);font-size:13px;font-family:DM Sans,sans-serif;"><span style="color:#999;min-width:100px;font-weight:500;font-size:11px;text-transform:uppercase;letter-spacing:.5px;">'+label+'</span><span style="color:#1A1A1A;font-weight:500;">'+val+'</span></div>';}
+function cr(l,r){return '<tr style="border-bottom:1px solid rgba(0,0,0,.04);"><td style="padding:12px 18px;color:#888;">\u2717 '+l+'</td><td style="padding:12px 18px;color:#8C7045;font-weight:500;">\u2713 '+r+'</td></tr>';}
+function sb(n,t){return '<div><div style="width:38px;height:38px;border-radius:50%;background:#8C7045;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:16px;margin:0 auto 6px;">'+n+'</div><p style="font-size:12px;color:#3A3A3A;">'+t+'</p></div>';}
+function ec(h,p){return '<div style="background:#F6F5F2;border-radius:8px;padding:20px 14px;text-align:center;"><h5 style="font-family:Cormorant Garamond,serif;font-weight:500;font-size:16px;color:#1A1A1A;margin-bottom:6px;">'+h+'</h5><p style="font-size:12px;color:#3A3A3A;line-height:1.5;">'+p+'</p></div>';}
+var nb=document.getElementById('navbar');window.addEventListener('scroll',function(){if(nb&&nb.offsetParent!==null){nb.classList.toggle('scrolled',window.scrollY>50);}});
+})();
+</script>
 </body>
 </html>
