@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>The Dunes East Hampton | Confidential Recovery Assessment</title>
+  <title>The Dunes East Hampton | Private Recovery Assessment</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://use.typekit.net/dnv6avg.css" />
@@ -13,57 +13,63 @@
       --gold:#9A7B3A;
       --gold-dark:#7B6230;
       --teal:#2F8F8B;
-      --navy:#1B2A2F;
+      --ink:#1B2A2F;
       --slate:#3F4C52;
-      --cream:#F7F3EE;
       --mist:#EEF0EE;
+      --cream:#F7F3EE;
       --white:#FFFFFF;
       --font-heading:"aviano-serif","Cinzel",serif;
       --font-body:"Zalando Sans","Helvetica Neue",Arial,sans-serif;
       --font-button:"Zalando Sans Expanded","Zalando Sans",sans-serif;
       --radius:10px;
-      --section-pad:96px;
     }
     *{box-sizing:border-box;}
     body{margin:0;font-family:var(--font-body);color:var(--slate);background:var(--cream);}
     a{color:inherit;text-decoration:none;}
     img{max-width:100%;display:block;}
     .container{width:min(1200px,92%);margin:0 auto;}
-    .nav{position:sticky;top:0;z-index:20;background:rgba(247,243,238,0.98);backdrop-filter:saturate(120%) blur(6px);border-bottom:1px solid #e2ddd3;}
-    .nav-inner{display:flex;align-items:center;justify-content:space-between;padding:14px 0;gap:16px;}
+
+    /* NAV */
+    .nav{position:sticky;top:0;z-index:30;background:rgba(247,243,238,0.98);backdrop-filter:saturate(120%) blur(6px);border-bottom:1px solid #e2ddd3;}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;padding:14px 0;gap:18px;}
     .logo{display:flex;align-items:center;gap:12px;}
-    .logo img{height:44px;width:auto;}
+    .logo img{height:46px;width:auto;}
     .nav-cta{display:flex;align-items:center;gap:18px;font-weight:600;}
     .btn{background:var(--gold);color:#fff;border:none;padding:12px 20px;border-radius:var(--radius);font-family:var(--font-button);text-transform:uppercase;letter-spacing:.08em;font-size:12px;cursor:pointer;}
     .btn:hover{background:var(--gold-dark);} 
 
+    /* HERO */
     .hero{min-height:96vh;display:grid;align-items:center;background:
-      linear-gradient(120deg, rgba(27,42,47,.85), rgba(27,42,47,.35)),
+      linear-gradient(120deg, rgba(27,42,47,.88), rgba(27,42,47,.35)),
       url('https://theduneseasthampton.com/wp-content/uploads/2021/04/Top-Rehab-in-Long-Island-NY.jpg') center/cover no-repeat;
-      color:#fff;padding:70px 0;}
-    .hero .container{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;}
-    .hero h1{font-family:var(--font-heading);font-size:48px;margin:0 0 14px;letter-spacing:.02em;}
-    .hero p{font-size:18px;line-height:1.7;margin:0 0 22px;max-width:560px;}
-    .hero .eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.2em;color:#d7c89e;}
+      color:#fff;padding:80px 0;}
+    .hero .container{display:grid;grid-template-columns:1.1fr .9fr;gap:44px;align-items:center;}
+    .hero .eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.22em;color:#d7c89e;}
+    .hero h1{font-family:var(--font-heading);font-size:52px;line-height:1.05;margin:10px 0 16px;letter-spacing:.02em;}
+    .hero p{font-size:18px;line-height:1.8;margin:0 0 24px;max-width:560px;}
+    .hero-rail{display:flex;align-items:center;gap:18px;margin:22px 0;}
+    .hero-rail .line{height:58px;width:2px;background:linear-gradient(var(--gold),var(--teal));}
+    .hero-rail .note{font-size:13px;opacity:.9;max-width:340px;}
     .hero-card{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.25);backdrop-filter:blur(10px);border-radius:16px;padding:18px;max-width:480px;}
     .hero-card .tag{color:#cfe9e7;font-weight:700;letter-spacing:.14em;font-size:11px;}
     .badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px;}
     .badge{border:1px solid rgba(255,255,255,.35);padding:6px 10px;border-radius:999px;font-size:12px;}
 
-    .quiz-card{background:#fff;color:#111;border-radius:16px;padding:24px;box-shadow:0 20px 50px rgba(0,0,0,.25);}
+    .quiz-card{background:#fff;color:#111;border-radius:16px;padding:26px;box-shadow:0 24px 60px rgba(0,0,0,.28);}
     .quiz-card .eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.2em;color:#7c7c7c;}
-    .quiz-card h3{font-family:var(--font-heading);margin:10px 0 18px;font-size:22px;color:var(--navy);}
+    .quiz-card h3{font-family:var(--font-heading);margin:10px 0 18px;font-size:22px;color:var(--ink);} 
     .option{border:1px solid #e5e0d8;border-radius:var(--radius);padding:14px;display:flex;align-items:center;gap:12px;margin-bottom:10px;cursor:pointer;transition:.2s;background:#fff;}
     .option:hover{border-color:var(--gold);background:rgba(154,123,58,.06);} 
     .radio{height:18px;width:18px;border-radius:50%;border:2px solid var(--gold);display:inline-flex;align-items:center;justify-content:center;}
     .radio::after{content:'';height:8px;width:8px;border-radius:50%;background:var(--gold);opacity:0;}
-    .option:hover .radio::after{opacity:.4;}
+    .option:hover .radio::after{opacity:.4;} 
     .confidential{display:flex;align-items:center;gap:8px;font-size:12px;color:#666;margin-top:10px;}
 
-    .section{padding:var(--section-pad) 0;}
+    /* SECTIONS */
+    .section{padding:96px 0;}
     .light{background:var(--mist);} 
-    .section h2{font-family:var(--font-heading);font-size:36px;margin:0 0 18px;color:var(--navy);} 
-    .section p{line-height:1.7;}
+    .section h2{font-family:var(--font-heading);font-size:38px;margin:0 0 18px;color:var(--ink);} 
+    .section p{line-height:1.8;}
     .grid{display:grid;gap:20px;}
     .grid-3{grid-template-columns:repeat(3,1fr);} 
     .grid-2{grid-template-columns:repeat(2,1fr);} 
@@ -73,32 +79,37 @@
     .trust-row img{height:54px;width:auto;filter:grayscale(10%);} 
 
     .split{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center;} 
-    .image-frame{border-radius:18px;overflow:hidden;box-shadow:0 16px 40px rgba(0,0,0,.2);} 
+    .image-frame{border-radius:18px;overflow:hidden;box-shadow:0 18px 40px rgba(0,0,0,.22);} 
 
-    .cta-banner{background:var(--navy);color:#fff;padding:56px 0;}
-    .cta-banner .btn{background:var(--teal);}
+    .gallery{display:grid;grid-template-columns:1.3fr .7fr;gap:18px;}
+    .gallery .stack{display:grid;gap:18px;}
 
-    .footer{background:#111;color:#bbb;padding:40px 0;font-size:13px;}
+    .pullquote{font-family:var(--font-heading);font-size:24px;color:var(--ink);border-left:3px solid var(--gold);padding-left:16px;}
 
-    /* Modal */
+    .cta-banner{background:var(--ink);color:#fff;padding:64px 0;}
+    .cta-banner .btn{background:var(--teal);} 
+
+    .footer{background:#111;color:#bbb;padding:40px 0;font-size:13px;} 
+
+    /* MODAL */
     .modal{position:fixed;inset:0;background:rgba(0,0,0,.85);display:none;align-items:center;justify-content:center;z-index:50;backdrop-filter:blur(6px);} 
-    .modal.active{display:flex;}
-    .modal-card{background:#fff;border-radius:16px;width:min(580px,92%);padding:22px;}
-    .progress{height:6px;background:#eee;border-radius:999px;overflow:hidden;margin-bottom:16px;}
+    .modal.active{display:flex;} 
+    .modal-card{background:#fff;border-radius:16px;width:min(580px,92%);padding:22px;} 
+    .progress{height:6px;background:#eee;border-radius:999px;overflow:hidden;margin-bottom:16px;} 
     .progress-fill{height:100%;background:linear-gradient(90deg,var(--gold),var(--teal));width:0%;transition:width .3s;} 
-    .modal-question{font-family:var(--font-heading);font-size:22px;margin:6px 0 14px;color:var(--navy);} 
+    .modal-question{font-family:var(--font-heading);font-size:22px;margin:6px 0 14px;color:var(--ink);} 
 
-    /* Loading */
-    .loading{position:fixed;inset:0;background:var(--navy);color:#fff;display:none;align-items:center;justify-content:center;z-index:60;flex-direction:column;gap:20px;text-align:center;padding:20px;}
-    .loading.active{display:flex;}
+    /* LOADING */
+    .loading{position:fixed;inset:0;background:var(--ink);color:#fff;display:none;align-items:center;justify-content:center;z-index:60;flex-direction:column;gap:20px;text-align:center;padding:20px;} 
+    .loading.active{display:flex;} 
     .loading img{height:60px;filter:brightness(0) invert(1);} 
-    .loading-bar{width:min(420px,86%);height:8px;background:rgba(255,255,255,.2);border-radius:999px;overflow:hidden;}
-    .loading-bar span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--teal),var(--gold));}
+    .loading-bar{width:min(420px,86%);height:8px;background:rgba(255,255,255,.2);border-radius:999px;overflow:hidden;} 
+    .loading-bar span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--teal),var(--gold));} 
 
     @media (max-width: 900px){
       .hero{min-height:auto;padding:90px 0;}
       .hero .container{grid-template-columns:1fr;}
-      .grid-3,.grid-2,.split{grid-template-columns:1fr;}
+      .grid-3,.grid-2,.split,.gallery{grid-template-columns:1fr;}
       .nav-inner{flex-direction:column;gap:10px;}
       .section{padding:72px 0;}
     }
@@ -126,7 +137,10 @@
         <div class="hero-card">
           <div class="tag">FREE • CONFIDENTIAL • 2-3 MIN</div>
           <div style="margin-top:8px;">Receive a personalized recommendation for The Dunes residential, executive, or outpatient programs.</div>
-          <div style="font-size:13px;opacity:.9;margin-top:8px;">Located on a private 17-acre estate in the Hamptons.</div>
+        </div>
+        <div class="hero-rail">
+          <div class="line"></div>
+          <div class="note">A private 17-acre estate with bespoke, high-touch care designed for individuals and families who value discretion.</div>
         </div>
         <div class="badges">
           <div class="badge">Luxury Residential Care</div>
@@ -162,13 +176,14 @@
   <section class="section light">
     <div class="container split">
       <div>
-        <h2>Private Hamptons Estate</h2>
-        <p>Recover in a serene, private estate designed for discretion. Accommodations include private bedrooms, spacious baths, and restorative amenities that support a calm, focused recovery experience.</p>
-        <div class="grid grid-2">
-          <div class="card">17-acre estate in East Hampton</div>
-          <div class="card">Luxury residential accommodations</div>
+        <h2>A Private Estate Designed for Recovery</h2>
+        <p>Set on a secluded Hamptons estate, The Dunes provides a restorative environment where privacy is protected and every element of care is intentional.</p>
+        <div class="pullquote">"Discretion is not a feature here. It is the foundation."</div>
+        <div class="grid grid-2" style="margin-top:18px;">
+          <div class="card">Private bedrooms and serene common spaces</div>
           <div class="card">High staff-to-client ratio</div>
-          <div class="card">Discreet admissions process</div>
+          <div class="card">Concierge-level admissions</div>
+          <div class="card">Family-centered clinical guidance</div>
         </div>
       </div>
       <div class="image-frame">
@@ -178,18 +193,17 @@
   </section>
 
   <section class="section">
-    <div class="container split">
+    <div class="container gallery">
       <div class="image-frame">
-        <img src="https://theduneseasthampton.com/wp-content/uploads/2025/08/holistic-rehab-in-the-hamptons.webp" alt="Wellness" onerror="imgFallback(this,'Wellness')">
+        <img src="https://theduneseasthampton.com/wp-content/uploads/2025/08/executive-rehab-in-New-York-1.webp" alt="Executive Living" onerror="imgFallback(this,'Executive')">
       </div>
-      <div>
-        <h2>Integrative Wellness Program</h2>
-        <p>We combine evidence-based clinical care with holistic supports, helping you address the underlying causes of addiction and build sustainable recovery.</p>
-        <div class="grid grid-2">
-          <div class="card">Clinical therapy + trauma-informed care</div>
-          <div class="card">Mind-body wellness and restorative practices</div>
-          <div class="card">Individualized treatment planning</div>
-          <div class="card">Long-term recovery support</div>
+      <div class="stack">
+        <div class="image-frame">
+          <img src="https://theduneseasthampton.com/wp-content/uploads/2025/08/holistic-rehab-in-the-hamptons.webp" alt="Wellness" onerror="imgFallback(this,'Wellness')">
+        </div>
+        <div class="card">
+          <h3 style="margin-top:0;font-family:var(--font-heading);">Executive Rehab Program</h3>
+          <p>For professionals who require privacy and discretion, we offer a structured program that respects real-world responsibilities while maintaining clinical rigor.</p>
         </div>
       </div>
     </div>
@@ -198,24 +212,24 @@
   <section class="section light">
     <div class="container split">
       <div>
-        <h2>Executive Rehab Program</h2>
-        <p>For professionals who cannot step away from responsibilities, The Dunes executive program offers discretion, privacy, and a structured environment that allows appropriate communication with the outside world.</p>
+        <h2>Integrative Clinical + Holistic Care</h2>
+        <p>We combine evidence-based therapy with restorative wellness practices to help address the roots of addiction and build sustainable recovery.</p>
         <div class="grid grid-2">
-          <div class="card">Executive accommodations</div>
-          <div class="card">Technology and communication access</div>
-          <div class="card">Concierge-level privacy</div>
-          <div class="card">Customized recovery plans</div>
+          <div class="card">Trauma-informed therapy</div>
+          <div class="card">Syndrome Model of Addiction</div>
+          <div class="card">Mind-body wellness</div>
+          <div class="card">Long-term aftercare planning</div>
         </div>
       </div>
       <div class="image-frame">
-        <img src="https://theduneseasthampton.com/wp-content/uploads/2025/08/executive-rehab-in-New-York-1.webp" alt="Executive Rehab" onerror="imgFallback(this,'Executive')">
+        <img src="https://theduneseasthampton.com/wp-content/uploads/2025/08/holistic-rehab-in-the-hamptons.webp" alt="Holistic" onerror="imgFallback(this,'Holistic')">
       </div>
     </div>
   </section>
 
   <section class="section">
     <div class="container">
-      <h2>Programs Designed for Lasting Recovery</h2>
+      <h2>Programs Built for Lasting Change</h2>
       <div class="grid grid-3">
         <div class="card">
           <h3 style="margin-top:0;font-family:var(--font-heading);">Residential Treatment</h3>
@@ -223,7 +237,7 @@
         </div>
         <div class="card">
           <h3 style="margin-top:0;font-family:var(--font-heading);">90-Day Program</h3>
-          <p>Research-backed duration for deep recovery work and stability.</p>
+          <p>Research-supported duration for deeper recovery work and stability.</p>
         </div>
         <div class="card">
           <h3 style="margin-top:0;font-family:var(--font-heading);">Outpatient Options</h3>
@@ -237,9 +251,9 @@
     <div class="container">
       <h2>Why The Dunes</h2>
       <div class="grid grid-3">
-        <div class="card">Syndrome Model of Addiction for evidence-based, comprehensive care.</div>
-        <div class="card">High staff-to-client ratio for attentive, personalized support.</div>
-        <div class="card">Privacy-first culture with discreet admissions and care.</div>
+        <div class="card">High staff-to-client ratio and tailored care plans.</div>
+        <div class="card">Luxury estate environment designed for privacy.</div>
+        <div class="card">Clinical excellence with long-term support.</div>
       </div>
     </div>
   </section>
